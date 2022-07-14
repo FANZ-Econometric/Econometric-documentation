@@ -1,0 +1,99 @@
+{
+    "farmEconomics":
+    {
+        "name": "My farm",
+        "year": "2020",
+        "SRequired": "true",
+        "KRequired": "true",
+        "limeRequired": "false",
+        "discountRate": "4",      
+        "blocks":[
+            {
+    "name": "block 1",
+    "blockEconomics": {
+        "desc": "inputs the model needs",
+    "area": "10",
+    "soilinputs": [
+        {"desc": "this will be the values passed in, can be an array" ,
+            "soilGroupDesc": "RecentYGEBGE",
+            "soilOrderDesc": "Pallic",
+            "slope": "3",
+    "soiltest": {
+            "olsenP": "9",
+            "pESo": "12",
+            "qtSO4": "0",
+            "totalS": "0",
+            "qtK": "7.5" ,
+            "pH": "5.4",
+            "quickTestMg": "40",
+            "asc": ""
+    },
+            "KSource": 
+                {"KReserveStatusOption": "Low",
+                "tbkReserveK" : "0",
+                "kleaching": "1.3",
+                "kLeachFactorBorderDyke": "0",
+                "isBorderDyke": "false"    
+             }
+          }
+    ],
+    "effectiveStockingRate": "11.65",
+    "blockGrossMarginperRSU": "50.32",
+    "pastureIntake": "6460",
+    "lime": {
+        "limeneutralisingvalue": "",       
+        "limeperph": "0",     
+        "acidificationrate": "0.7"
+    },
+    "fertiliser": {
+        "desc": "TODO: do we need the farm level values here?",
+        "Shistory": {
+        "feYearprev_0": "0",
+        "feYearprev_1": "0",
+        "fsYearprev_0": "38",
+        "fsYearprev_1": "38",
+        "maintSulphateYear1": "14",
+        "maintSulphateYear2": "14"
+        },
+        "costs": {
+        "kCost": "1.7",
+        "pCost": "4.53",
+        "sCost": "0.39",
+        "limecost": "100",
+        "transportandspreading": "130"
+        },
+        "selemrelease": "0.76",        
+        "limerate": "0",
+        "limequality": "0"
+    },
+    "userdefinedinputs":{
+        "effluentInputs":[
+         ],
+        "nutrientinputs": [            
+        ],
+        "nutrientoutputs": [            
+        ]
+    }
+    }
+            }
+    ],
+        "fertilisers": {
+            "products": [ 
+            {
+            "name": "Superphosphate",
+            "cost/t": "320.81"
+            }
+            ],
+            "nutrientCost/kg": {
+            "K": "1.44",
+            "P": "3.16",
+            "S": "0"
+            },
+            "elementalSulphur": {
+            "releaseRate": "0.76",
+            "releaseSource": "30% S Super",
+            "region":"Southern N.I."
+            }
+        }
+    }
+}
