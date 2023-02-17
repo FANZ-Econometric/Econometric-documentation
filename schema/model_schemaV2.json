@@ -496,7 +496,6 @@
 
       },
       "required": [
-        "Year",
         "SRequired",
         "KRequired",
         "LimeRequired",
