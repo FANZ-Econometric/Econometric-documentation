@@ -50,7 +50,7 @@ Fertiliser
 * Sulphur
  * Selemrelease
 
- *Rpr 
+ * Rpr 
 	* RprName
 
 * Costs required for each nutrient selected
