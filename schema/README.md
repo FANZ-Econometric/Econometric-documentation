@@ -50,7 +50,7 @@ Fertiliser
 * Sulphur
  * Selemrelease
 
- *Rpr 
+ * Rpr 
 	* RprName
 
 * Costs required for each nutrient selected
@@ -61,6 +61,6 @@ RprFertilisers
 * Rho
 * DissolutionRates
 
-OtpimumPrams required for the nutrients selected when an Otimum or Constrained scenario is run
-*Constraint required if running a Constrained scenario
+OptimumPrams required for the nutrients selected when an Optimum or Constrained scenario is run
+* Constraint required if running a Constrained scenario
 
