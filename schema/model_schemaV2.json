@@ -145,7 +145,7 @@
                       ]
                     },
                     "PastureIntake": {
-                      "description": "Pasture consumed by the enterprises kg DM/ha. If not provided is defaulted to 550",
+                      "description": "Pasture consumed by the enterprises kg DM/ha. Used to calculate the dry matter intake (DMI). If not provided is defaulted to 550",
                       "type": "number"
                     },
                     "StockTypes": {
