@@ -85,7 +85,7 @@
                               "type": "string"
                             },
                             "Slope": {
-                              "description": "Topography: Flat, Rolling, Easy Hill, Steep Hill",
+                              "description": "Topography: 0 = Flat, 2 = Rolling, 3 = Easy Hill, 4 = Steep Hill",
                               "type": "string"
                             },
                             "SoilTest": {
