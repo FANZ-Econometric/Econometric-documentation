@@ -1,0 +1,135 @@
+{
+  "FarmEconomics": {
+    "Reference": null,
+    "Year": 2023,
+    "SRequired": false,
+    "KRequired": true,
+    "LimeRequired": false,
+    "RprAvailable": false,
+    "DiscountRate": 10.0,
+    "Region": "North East S.I.",
+    "Blocks": [
+      {
+        "Reference": "Pastoral 1",
+        "BlockEconomics": {
+          "Desc": "Inputs the model needs",
+          "Area": 50.0,
+          "IsDairy": false,
+          "Rain": 500,
+          "Irrigation": 0.0,
+          "Drainage": 0,
+          "SoilInputs": [
+            {
+              "Desc": "this will be the values passed in, can be an array",
+              "SoilGroupDesc": "Sedimentary",
+              "SoilOrderDesc": "Undefined",
+              "Slope": "3",
+              "SoilTest": {
+                "OlsenP": 16.0,
+                "PESo": 7.0,
+                "QTSO4": 0.0,
+                "TotalS": 0.0,
+                "Qtk": 7.0,
+                "Ph": 0.0,
+                "QtMg": 21.0,
+                "TbkReserveK": 0.0,
+                "KReserveStatusOption": 0,
+                "KLeaching": 0.9
+              }
+            }
+          ],
+          "PastureIntake": 6624.0,
+          "StockTypes": [
+            {
+              "StockClass": 2,
+              "EffectiveStockingRate": 11.94,
+              "BlockGrossMarginSU": 32.26,
+              "CapitalValueSU": 0.0,
+              "MilkPerHa": 0.0,
+              "LiveWgtKgPerHa": 0.0
+            }
+          ],
+          "Fertiliser": {
+            "Desc": "TODO: do we need the farm level values here?",
+            "Lime": {
+              "LimeNeutralisingValue": null,
+              "LimePerpH": 0.0,
+              "AcidificationRate": 0.9,
+              "LimeQuality": 0.0
+            },
+            "Sulphur": {
+              "Selemrelease": 0.0,
+              "History": {
+                "Elemental": [],
+                "Sulphate": [],
+                "MaintElemental": [],
+                "MaintSulphate": []
+              }
+            },
+            "Rpr": {
+              "RprName": null,
+              "InitialRpr": 0.0,
+              "RprHistories": []
+            },
+            "Costs": {
+              "K": 2.6,
+              "P": 2.39,
+              "S": 0.0,
+              "Rpr": 0.0,
+              "Ca": 0.0,
+              "Spreading": 0.0
+            }
+          },
+          "UserDefinedParams": {
+            "EffluentInputs": [],
+            "NutrientInputs": [],
+            "NutrientOutputs": [],
+            "FertiliserInputs": [
+              {
+                "Name": "Unknown P Fertiliser",
+                "P": 1.0,
+                "K": 0.0,
+                "S": 0.0
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "RprFertilisers": [],
+    "OptimumParams": null,
+    "ConstantAmountParams": [
+      {
+        "Fertiliser": "3",
+        "Rate": 50.0,
+        "NutrientValues": [
+          {
+            "Value": 10.0,
+            "Nutrient": "P"
+          },
+          {
+            "Value": 0.0,
+            "Nutrient": "K"
+          },
+          {
+            "Value": 0.5,
+            "Nutrient": "S"
+          },
+          {
+            "Value": 0.0,
+            "Nutrient": "ElementalS"
+          },
+          {
+            "Value": 0.0,
+            "Nutrient": "Rpr"
+          },
+          {
+            "Value": 0.0,
+            "Nutrient": "Ca"
+          }
+        ]
+      }
+    ],
+    "Scenarios": []
+  }
+}

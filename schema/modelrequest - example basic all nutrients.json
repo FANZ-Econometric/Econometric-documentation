@@ -1,0 +1,234 @@
+{
+  "FarmEconomics": {
+    "Reference": null,
+    "Year": 2023,
+    "SRequired": true,
+    "KRequired": true,
+    "LimeRequired": true,
+    "RprAvailable": true,
+    "DiscountRate": 0.0,
+    "Region": "Northern N.I.",
+    "Blocks": [
+      {
+        "Reference": "Pastoral 1",
+        "BlockEconomics": {
+          "Area": 80.0,
+          "IsDairy": true,
+          "Rain": 700,
+          "Irrigation": 0.0,
+          "Drainage": 0,
+          "SoilInputs": [
+            {
+              "SoilGroupDesc": "Volcanic",
+              "SoilOrderDesc": "Undefined",
+              "Slope": "0",
+              "SoilTest": {
+                "OlsenP": 16.0,
+                "PESo": 9.0,
+                "QTSO4": 0.0,
+                "TotalS": 0.0,
+                "Qtk": 10.0,
+                "Ph": 5.8,
+                "QtMg": 20.0,
+                "TbkReserveK": 0.0,
+                "KReserveStatusOption": 2,
+                "KLeaching": 1.0
+              }
+            }
+          ],
+          "PastureIntake": 16665.0,
+          "StockTypes": [
+            {
+              "StockClass": 2,
+              "EffectiveStockingRate": 7.660047324999999,
+              "BlockGrossMarginSU": 20.0,
+              "CapitalValueSU": 0.0,
+              "MilkPerHa": 0.0,
+              "LiveWgtKgPerHa": 200.0
+            },
+            {
+              "StockClass": 1,
+              "EffectiveStockingRate": 22.99015565,
+              "BlockGrossMarginSU": 311.12443264537126,
+              "CapitalValueSU": 0.0,
+              "MilkPerHa": 635.26638,
+              "LiveWgtKgPerHa": 383.0
+            }
+          ],
+          "Fertiliser": {
+            "Lime": {
+              "LimeNeutralisingValue": null,
+              "LimePerpH": 20.0,
+              "AcidificationRate": 1.4,
+              "LimeQuality": 90.0
+            },
+            "Sulphur": {
+              "Selemrelease": 0.86,
+              "History": {
+                "Elemental": [
+                  0,
+                  0
+                ],
+                "Sulphate": [
+                  0,
+                  0
+                ],
+                "MaintElemental": [
+                  0,
+                  0
+                ],
+                "MaintSulphate": [
+                  14,
+                  14
+                ]
+              }
+            },
+            "Rpr": {
+              "RprName": "RPR",
+              "InitialRpr": 0.0,
+              "RprHistories": []
+            },
+            "Costs": {
+              "K": 2.6,
+              "P": 1.7,
+              "S": 0.56,
+              "Rpr": 4.0,
+              "Ca": 0.05,
+              "Spreading": 0.0
+            }
+          },
+          "UserDefinedParams": {
+            "EffluentInputs": [],
+            "NutrientInputs": [],
+            "NutrientOutputs": [],
+            "FertiliserInputs": []
+          }
+        }
+      },
+      {
+        "Reference": "Pastoral 2",
+        "BlockEconomics": {
+          "Area": 50.0,
+          "IsDairy": false,
+          "Rain": 700,
+          "Irrigation": 0.0,
+          "Drainage": 0,
+          "SoilInputs": [
+            {
+              "SoilGroupDesc": "Volcanic",
+              "SoilOrderDesc": "Undefined",
+              "Slope": "2",
+              "SoilTest": {
+                "OlsenP": 16.0,
+                "PESo": 9.0,
+                "QTSO4": 0.0,
+                "TotalS": 0.0,
+                "Qtk": 10.0,
+                "Ph": 6.0,
+                "QtMg": 20.0,
+                "TbkReserveK": 0.0,
+                "KReserveStatusOption": 2,
+                "KLeaching": 1.0
+              }
+            }
+          ],
+          "PastureIntake": 16868.0,
+          "StockTypes": [
+            {
+              "StockClass": 2,
+              "EffectiveStockingRate": 7.7499242799999992,
+              "BlockGrossMarginSU": 20.0,
+              "CapitalValueSU": 0.0,
+              "MilkPerHa": 0.0,
+              "LiveWgtKgPerHa": 200.0
+            },
+            {
+              "StockClass": 1,
+              "EffectiveStockingRate": 23.31975096,
+              "BlockGrossMarginSU": 311.12443264537126,
+              "CapitalValueSU": 0.0,
+              "MilkPerHa": 402.73362,
+              "LiveWgtKgPerHa": 383.0
+            }
+          ],
+          "Fertiliser": {
+            "Lime": {
+              "LimeNeutralisingValue": null,
+              "LimePerpH": 10.0,
+              "AcidificationRate": 1.3,
+              "LimeQuality": 90.0
+            },
+            "Sulphur": {
+              "Selemrelease": 0.86,
+              "History": {
+                "Elemental": [
+                  0,
+                  0
+                ],
+                "Sulphate": [
+                  1,
+                  1
+                ],
+                "MaintElemental": [
+                  0,
+                  0
+                ],
+                "MaintSulphate": [
+                  16,
+                  16
+                ]
+              }
+            },
+            "Rpr": {
+              "RprName": "RPR",
+              "InitialRpr": 0.0,
+              "RprHistories": [
+                {
+                  "Name": "RPR",
+                  "Values": [
+                    5
+                  ]
+                }
+              ]
+            },
+            "Costs": {
+              "K": 2.6,
+              "P": 1.7,
+              "S": 0.56,
+              "Rpr": 4.0,
+              "Ca": 0.05,
+              "Spreading": 0.0
+            }
+          },
+          "UserDefinedParams": {
+            "EffluentInputs": [],
+            "NutrientInputs": [],
+            "NutrientOutputs": [],
+            "FertiliserInputs": [
+              {
+                "Name": "Unknown P Fertiliser",
+                "P": 1.0,
+                "K": 0.0,
+                "S": 0.0
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "RprFertilisers": [
+      {
+        "Name": "RPR",
+        "CrF": 15.0,
+        "Rho": 2.7,
+        "DissolutionRates": [
+          0.127,
+          0.24
+        ]
+      }
+    ],
+    "OptimumParams": null,
+    "ConstantAmountParams": [],
+    "Scenarios": []
+  }
+}
