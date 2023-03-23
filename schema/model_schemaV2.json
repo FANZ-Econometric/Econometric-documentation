@@ -493,7 +493,104 @@
             }    
           ]
         }
-
+          "Scenarios": {
+          "description": "Scenario inputs for User defined values",
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "Name": {
+                  "description": "Name of the Scenario",
+                  "type": "string"
+                },
+                "ScenarioType": {
+                  "description": "Type of Scenario = UserDefined",
+                  "type": "string"
+                },
+                "Blocks": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "Name": {
+                          "description": "Name of the block",
+                          "type": "string"
+                        },
+                        "Id": {
+                          "description": "Unique identifier for the block",
+                          "type": "integer"
+                        },
+                        "Nutrients": {
+                          "type": "array",
+                          "items": [
+                            {
+                              "type": "object",
+                              "properties": {
+                                "Name": {
+                                  "description": "Name of the nutrient: p, k, s, rpr,  ",
+                                  "type": "string"
+                                },
+                                "ListOfYears": {
+                                  "type": "array",
+                                  "items": [
+                                    {
+                                      "type": "object",
+                                      "properties": {
+                                        "Value": {
+                                          "description": "Amount of nutrient kg/ha to 1 d.p.",
+                                          "type": "number"
+                                        },
+                                        "Year": {
+                                          "description": "Year value: 1 - 10",
+                                          "type": "integer"
+                                        }
+                                      },
+                                      "required": [
+                                        "Value",
+                                        "Year"
+                                      ]
+                                    }                                  
+                                  ]
+                                }
+                              },
+                              "required": [
+                                "Name",
+                                "ListOfYears"
+                              ]
+                            }                            
+                          ]
+                        },
+                        "Reports": {
+                          "type": "array",
+                          "items": {}
+                        }
+                      },
+                      "required": [
+                        "Name",
+                        "Id",
+                        "Nutrients"
+                      ]
+                    }
+                  ]
+                },
+                "OptimumParams": {
+                  "type": "null"
+                },
+                "Reports": {
+                  "type": "array",
+                  "items": {}
+                }
+              },
+              "required": [
+                "Name",
+                "ScenarioType",
+                "Blocks" 
+              ]
+            }
+          ]
+        }
       },
       "required": [
         "SRequired",
