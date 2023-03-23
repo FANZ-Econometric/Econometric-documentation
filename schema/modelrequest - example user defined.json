@@ -1,0 +1,322 @@
+{
+  "FarmEconomics": {
+    "Reference": null,
+    "Year": 2023,
+    "SRequired": true,
+    "KRequired": true,
+    "LimeRequired": true,
+    "RprAvailable": true,
+    "DiscountRate": 0.0,
+    "Region": "North East S.I.",
+    "Blocks": [
+      {
+        "Reference": "Pastoral 1",
+        "BlockEconomics": {
+          "Desc": "Inputs the model needs",
+          "Area": 50.0,
+          "IsDairy": false,
+          "Rain": 500,
+          "Irrigation": 0.0,
+          "Drainage": 0,
+          "SoilInputs": [
+            {
+              "Desc": "this will be the values passed in, can be an array",
+              "SoilGroupDesc": "Sedimentary",
+              "SoilOrderDesc": "Undefined",
+              "Slope": "3",
+              "SoilTest": {
+                "OlsenP": 16.0,
+                "PESo": 7.0,
+                "QTSO4": 0.0,
+                "TotalS": 0.0,
+                "Qtk": 7.0,
+                "Ph": 5.8,
+                "QtMg": 21.0,
+                "TbkReserveK": 0.0,
+                "KReserveStatusOption": 0,
+                "KLeaching": 0.9
+              }
+            }
+          ],
+          "PastureIntake": 6624.0,
+          "StockTypes": [
+            {
+              "StockClass": 2,
+              "EffectiveStockingRate": 11.94,
+              "BlockGrossMarginSU": 32.26,
+              "CapitalValueSU": 0.0,
+              "MilkPerHa": 0.0,
+              "LiveWgtKgPerHa": 0.0
+            }
+          ],
+          "Fertiliser": {
+            "Desc": "TODO: do we need the farm level values here?",
+            "Lime": {
+              "LimeNeutralisingValue": null,
+              "LimePerpH": 20.0,
+              "AcidificationRate": 0.9,
+              "LimeQuality": 90.0
+            },
+            "Sulphur": {
+              "Selemrelease": 0.75,
+              "History": {
+                "Elemental": [
+                  0,
+                  0
+                ],
+                "Sulphate": [
+                  1,
+                  1
+                ],
+                "MaintElemental": [
+                  0,
+                  0
+                ],
+                "MaintSulphate": [
+                  11,
+                  11
+                ]
+              }
+            },
+            "Rpr": {
+              "RprName": "RPR",
+              "InitialRpr": 0.0,
+              "RprHistories": []
+            },
+            "Costs": {
+              "K": 2.6,
+              "P": 1.7,
+              "S": 0.56,
+              "Rpr": 4.0,
+              "Ca": 0.05,
+              "Spreading": 0.0
+            }
+          },
+          "UserDefinedParams": {
+            "EffluentInputs": [],
+            "NutrientInputs": [],
+            "NutrientOutputs": [],
+            "FertiliserInputs": [
+              {
+                "Name": "Unknown P Fertiliser",
+                "P": 1.0,
+                "K": 0.0,
+                "S": 0.0
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "RprFertilisers": [ 
+      {
+        "Name": "RPR",
+        "CrF": 15.0,
+        "Rho": 2.7,
+        "DissolutionRates": [
+          0.127,
+          0.24
+        ]
+      }
+    ],
+    "OptimumParams": null,
+    "ConstantAmountParams": [],
+    "Scenarios": [
+      {
+        "Name": "UserDefined",
+        "ScenarioType": "UserDefined",
+        "Blocks": [
+          {
+            "Name": "Pastoral 1",
+            "Id": 0,
+            "Nutrients": [
+              {
+                "Name": "p",
+                "ListOfYears": [
+                  {
+                    "Value": 20.0,
+                    "Year": 1
+                  },
+                  {
+                    "Value": 0.0,
+                    "Year": 2
+                  },
+                  {
+                    "Value": 0.0,
+                    "Year": 3
+                  },
+                  {
+                    "Value": 20.0,
+                    "Year": 4
+                  },
+                  {
+                    "Value": 0.0,
+                    "Year": 5
+                  },
+                  {
+                    "Value": 0.0,
+                    "Year": 6
+                  },
+                  {
+                    "Value": 20.0,
+                    "Year": 7
+                  },
+                  {
+                    "Value": 0.0,
+                    "Year": 8
+                  },
+                  {
+                    "Value": 0.0,
+                    "Year": 9
+                  },
+                  {
+                    "Value": 0.0,
+                    "Year": 10
+                  }
+                ]
+              },
+              {
+                "Name": "k",
+                "ListOfYears": [
+                  {
+                    "Value": 0.0,
+                    "Year": 1
+                  },
+                  {
+                    "Value": 10.0,
+                    "Year": 2
+                  },
+                  {
+                    "Value": 0.0,
+                    "Year": 3
+                  },
+                  {
+                    "Value": 0.0,
+                    "Year": 4
+                  },
+                  {
+                    "Value": 0.0,
+                    "Year": 5
+                  },
+                  {
+                    "Value": 10.0,
+                    "Year": 6
+                  },
+                  {
+                    "Value": 0.0,
+                    "Year": 7
+                  },
+                  {
+                    "Value": 0.0,
+                    "Year": 8
+                  },
+                  {
+                    "Value": 0.0,
+                    "Year": 9
+                  },
+                  {
+                    "Value": 0.0,
+                    "Year": 10
+                  }
+                ]
+              },
+              {
+                "Name": "s",
+                "ListOfYears": [
+                  {
+                    "Value": 0.0,
+                    "Year": 1
+                  },
+                  {
+                    "Value": 0.0,
+                    "Year": 2
+                  },
+                  {
+                    "Value": 10.0,
+                    "Year": 3
+                  },
+                  {
+                    "Value": 0.0,
+                    "Year": 4
+                  },
+                  {
+                    "Value": 0.0,
+                    "Year": 5
+                  },
+                  {
+                    "Value": 0.0,
+                    "Year": 6
+                  },
+                  {
+                    "Value": 0.0,
+                    "Year": 7
+                  },
+                  {
+                    "Value": 0.0,
+                    "Year": 8
+                  },
+                  {
+                    "Value": 0.0,
+                    "Year": 9
+                  },
+                  {
+                    "Value": 0.0,
+                    "Year": 10
+                  }
+                ]
+              },         
+              {
+                "Name": "rpr",
+                "ListOfYears": [
+                  {
+                    "Value": 0.0,
+                    "Year": 1
+                  },
+                  {
+                    "Value": 20.0,
+                    "Year": 2
+                  },
+                  {
+                    "Value": 0.0,
+                    "Year": 3
+                  },
+                  {
+                    "Value": 0.0,
+                    "Year": 4
+                  },
+                  {
+                    "Value": 0.0,
+                    "Year": 5
+                  },
+                  {
+                    "Value": 0.0,
+                    "Year": 6
+                  },
+                  {
+                    "Value": 0.0,
+                    "Year": 7
+                  },
+                  {
+                    "Value": 0.0,
+                    "Year": 8
+                  },
+                  {
+                    "Value": 0.0,
+                    "Year": 9
+                  },
+                  {
+                    "Value": 0.0,
+                    "Year": 10
+                  }
+                ]
+              }             
+            ],
+            "Reports": []
+          }
+        ],
+        "OptimumParams": null,
+        "Reports": []
+      }
+    ]
+  }
+}
