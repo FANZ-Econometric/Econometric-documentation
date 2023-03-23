@@ -52,7 +52,7 @@ RprFertilisers | Name | Name of the fertilisers that are being applied on the bl
  | Rho | The density of RPR rock particles | Required when using Rpr | 
  | DissolutionRates | Dissolution rates of the fertiliser | Required when using Rpr | 
  |  |  |  | 
-# Scenarios |  |  |  | 
+# Scenarios
 Level | Entity name | Description | Required | Units
 --- | --- | --- | --- | ---
 OptimumParams |  | Inputs required for the Optimum or Constrained Scenarios | Yes | 
