@@ -492,7 +492,7 @@
               ]
             }    
           ]
-        }
+        },
           "Scenarios": {
           "description": "Scenario inputs for User defined values",
           "type": "array",
@@ -529,7 +529,7 @@
                               "type": "object",
                               "properties": {
                                 "Name": {
-                                  "description": "Name of the nutrient: p, k, s, rpr,  ",
+                                  "description": "Name of the nutrient: p, k, s, rpr",
                                   "type": "string"
                                 },
                                 "ListOfYears": {
