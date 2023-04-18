@@ -1,0 +1,6329 @@
+{
+  "Id": 0,
+  "Name": "Constant",
+  "ScenarioType": "Constant",
+  "Block": [
+    {
+      "Id": 0,
+      "Name": "Pastoral 1",
+      "Nutrients": [
+        {
+          "Name": "P",
+          "ListOfYears": [
+            {
+              "Value": 2.28,
+              "Year": 1
+            },
+            {
+              "Value": 2.28,
+              "Year": 2
+            },
+            {
+              "Value": 2.28,
+              "Year": 3
+            },
+            {
+              "Value": 2.28,
+              "Year": 4
+            },
+            {
+              "Value": 2.28,
+              "Year": 5
+            },
+            {
+              "Value": 2.28,
+              "Year": 6
+            },
+            {
+              "Value": 2.28,
+              "Year": 7
+            },
+            {
+              "Value": 2.28,
+              "Year": 8
+            },
+            {
+              "Value": 2.28,
+              "Year": 9
+            },
+            {
+              "Value": 2.28,
+              "Year": 10
+            }
+          ]
+        },
+        {
+          "Name": "K",
+          "ListOfYears": [
+            {
+              "Value": 2.25,
+              "Year": 1
+            },
+            {
+              "Value": 2.25,
+              "Year": 2
+            },
+            {
+              "Value": 2.25,
+              "Year": 3
+            },
+            {
+              "Value": 2.25,
+              "Year": 4
+            },
+            {
+              "Value": 2.25,
+              "Year": 5
+            },
+            {
+              "Value": 2.25,
+              "Year": 6
+            },
+            {
+              "Value": 2.25,
+              "Year": 7
+            },
+            {
+              "Value": 2.25,
+              "Year": 8
+            },
+            {
+              "Value": 2.25,
+              "Year": 9
+            },
+            {
+              "Value": 2.25,
+              "Year": 10
+            }
+          ]
+        },
+        {
+          "Name": "S",
+          "ListOfYears": [
+            {
+              "Value": 2.94,
+              "Year": 1
+            },
+            {
+              "Value": 2.94,
+              "Year": 2
+            },
+            {
+              "Value": 2.94,
+              "Year": 3
+            },
+            {
+              "Value": 2.94,
+              "Year": 4
+            },
+            {
+              "Value": 2.94,
+              "Year": 5
+            },
+            {
+              "Value": 2.94,
+              "Year": 6
+            },
+            {
+              "Value": 2.94,
+              "Year": 7
+            },
+            {
+              "Value": 2.94,
+              "Year": 8
+            },
+            {
+              "Value": 2.94,
+              "Year": 9
+            },
+            {
+              "Value": 2.94,
+              "Year": 10
+            }
+          ]
+        },
+        {
+          "Name": "Rpr",
+          "ListOfYears": [
+            {
+              "Value": 0,
+              "Year": 1
+            },
+            {
+              "Value": 0,
+              "Year": 2
+            },
+            {
+              "Value": 0,
+              "Year": 3
+            },
+            {
+              "Value": 0,
+              "Year": 4
+            },
+            {
+              "Value": 0,
+              "Year": 5
+            },
+            {
+              "Value": 0,
+              "Year": 6
+            },
+            {
+              "Value": 0,
+              "Year": 7
+            },
+            {
+              "Value": 0,
+              "Year": 8
+            },
+            {
+              "Value": 0,
+              "Year": 9
+            },
+            {
+              "Value": 0,
+              "Year": 10
+            }
+          ]
+        },
+        {
+          "Name": "ElementalS",
+          "ListOfYears": [
+            {
+              "Value": 0,
+              "Year": 1
+            },
+            {
+              "Value": 0,
+              "Year": 2
+            },
+            {
+              "Value": 0,
+              "Year": 3
+            },
+            {
+              "Value": 0,
+              "Year": 4
+            },
+            {
+              "Value": 0,
+              "Year": 5
+            },
+            {
+              "Value": 0,
+              "Year": 6
+            },
+            {
+              "Value": 0,
+              "Year": 7
+            },
+            {
+              "Value": 0,
+              "Year": 8
+            },
+            {
+              "Value": 0,
+              "Year": 9
+            },
+            {
+              "Value": 0,
+              "Year": 10
+            }
+          ]
+        },
+        {
+          "Name": "Ca",
+          "ListOfYears": [
+            {
+              "Value": 0,
+              "Year": 1
+            },
+            {
+              "Value": 0,
+              "Year": 2
+            },
+            {
+              "Value": 0,
+              "Year": 3
+            },
+            {
+              "Value": 0,
+              "Year": 4
+            },
+            {
+              "Value": 0,
+              "Year": 5
+            },
+            {
+              "Value": 0,
+              "Year": 6
+            },
+            {
+              "Value": 0,
+              "Year": 7
+            },
+            {
+              "Value": 0,
+              "Year": 8
+            },
+            {
+              "Value": 0,
+              "Year": 9
+            },
+            {
+              "Value": 0,
+              "Year": 10
+            }
+          ]
+        }
+      ],
+      "Reports": [
+        {
+          "$type": "Econometric.Schema.ScenarioModal.YearValueReport, Econometric.Schema",
+          "ListOfYears": [
+            {
+              "Value": 6913.02,
+              "Year": 1
+            },
+            {
+              "Value": 6524.47,
+              "Year": 2
+            },
+            {
+              "Value": 6167.77,
+              "Year": 3
+            },
+            {
+              "Value": 5839.72,
+              "Year": 4
+            },
+            {
+              "Value": 5532.56,
+              "Year": 5
+            },
+            {
+              "Value": 5237.35,
+              "Year": 6
+            },
+            {
+              "Value": 4946.07,
+              "Year": 7
+            },
+            {
+              "Value": 4654.3,
+              "Year": 8
+            },
+            {
+              "Value": 4361.86,
+              "Year": 9
+            },
+            {
+              "Value": 4071.75,
+              "Year": 10
+            }
+          ],
+          "TypeOfReport": "GrossReturns"
+        },
+        {
+          "$type": "Econometric.Schema.ScenarioModal.NutrientReport, Econometric.Schema",
+          "Nutrients": [
+            {
+              "Name": "P",
+              "ListOfYears": [
+                {
+                  "Value": 2.28,
+                  "Year": 1
+                },
+                {
+                  "Value": 2.28,
+                  "Year": 2
+                },
+                {
+                  "Value": 2.28,
+                  "Year": 3
+                },
+                {
+                  "Value": 2.28,
+                  "Year": 4
+                },
+                {
+                  "Value": 2.28,
+                  "Year": 5
+                },
+                {
+                  "Value": 2.28,
+                  "Year": 6
+                },
+                {
+                  "Value": 2.28,
+                  "Year": 7
+                },
+                {
+                  "Value": 2.28,
+                  "Year": 8
+                },
+                {
+                  "Value": 2.28,
+                  "Year": 9
+                },
+                {
+                  "Value": 2.28,
+                  "Year": 10
+                }
+              ]
+            },
+            {
+              "Name": "K",
+              "ListOfYears": [
+                {
+                  "Value": 2.25,
+                  "Year": 1
+                },
+                {
+                  "Value": 2.25,
+                  "Year": 2
+                },
+                {
+                  "Value": 2.25,
+                  "Year": 3
+                },
+                {
+                  "Value": 2.25,
+                  "Year": 4
+                },
+                {
+                  "Value": 2.25,
+                  "Year": 5
+                },
+                {
+                  "Value": 2.25,
+                  "Year": 6
+                },
+                {
+                  "Value": 2.25,
+                  "Year": 7
+                },
+                {
+                  "Value": 2.25,
+                  "Year": 8
+                },
+                {
+                  "Value": 2.25,
+                  "Year": 9
+                },
+                {
+                  "Value": 2.25,
+                  "Year": 10
+                }
+              ]
+            },
+            {
+              "Name": "Rpr",
+              "ListOfYears": [
+                {
+                  "Value": 0,
+                  "Year": 1
+                },
+                {
+                  "Value": 0,
+                  "Year": 2
+                },
+                {
+                  "Value": 0,
+                  "Year": 3
+                },
+                {
+                  "Value": 0,
+                  "Year": 4
+                },
+                {
+                  "Value": 0,
+                  "Year": 5
+                },
+                {
+                  "Value": 0,
+                  "Year": 6
+                },
+                {
+                  "Value": 0,
+                  "Year": 7
+                },
+                {
+                  "Value": 0,
+                  "Year": 8
+                },
+                {
+                  "Value": 0,
+                  "Year": 9
+                },
+                {
+                  "Value": 0,
+                  "Year": 10
+                }
+              ]
+            },
+            {
+              "Name": "S",
+              "ListOfYears": [
+                {
+                  "Value": 2.94,
+                  "Year": 1
+                },
+                {
+                  "Value": 2.94,
+                  "Year": 2
+                },
+                {
+                  "Value": 2.94,
+                  "Year": 3
+                },
+                {
+                  "Value": 2.94,
+                  "Year": 4
+                },
+                {
+                  "Value": 2.94,
+                  "Year": 5
+                },
+                {
+                  "Value": 2.94,
+                  "Year": 6
+                },
+                {
+                  "Value": 2.94,
+                  "Year": 7
+                },
+                {
+                  "Value": 2.94,
+                  "Year": 8
+                },
+                {
+                  "Value": 2.94,
+                  "Year": 9
+                },
+                {
+                  "Value": 2.94,
+                  "Year": 10
+                }
+              ]
+            },
+            {
+              "Name": "ElementalS",
+              "ListOfYears": [
+                {
+                  "Value": 0,
+                  "Year": 1
+                },
+                {
+                  "Value": 0,
+                  "Year": 2
+                },
+                {
+                  "Value": 0,
+                  "Year": 3
+                },
+                {
+                  "Value": 0,
+                  "Year": 4
+                },
+                {
+                  "Value": 0,
+                  "Year": 5
+                },
+                {
+                  "Value": 0,
+                  "Year": 6
+                },
+                {
+                  "Value": 0,
+                  "Year": 7
+                },
+                {
+                  "Value": 0,
+                  "Year": 8
+                },
+                {
+                  "Value": 0,
+                  "Year": 9
+                },
+                {
+                  "Value": 0,
+                  "Year": 10
+                }
+              ]
+            },
+            {
+              "Name": "Ca",
+              "ListOfYears": [
+                {
+                  "Value": 0,
+                  "Year": 1
+                },
+                {
+                  "Value": 0,
+                  "Year": 2
+                },
+                {
+                  "Value": 0,
+                  "Year": 3
+                },
+                {
+                  "Value": 0,
+                  "Year": 4
+                },
+                {
+                  "Value": 0,
+                  "Year": 5
+                },
+                {
+                  "Value": 0,
+                  "Year": 6
+                },
+                {
+                  "Value": 0,
+                  "Year": 7
+                },
+                {
+                  "Value": 0,
+                  "Year": 8
+                },
+                {
+                  "Value": 0,
+                  "Year": 9
+                },
+                {
+                  "Value": 0,
+                  "Year": 10
+                }
+              ]
+            }
+          ],
+          "TypeOfReport": "Applied"
+        },
+        {
+          "$type": "Econometric.Schema.ScenarioModal.NutrientReport, Econometric.Schema",
+          "Nutrients": [
+            {
+              "Name": "P",
+              "ListOfYears": [
+                {
+                  "Value": 3.88,
+                  "Year": 1
+                },
+                {
+                  "Value": 3.88,
+                  "Year": 2
+                },
+                {
+                  "Value": 3.88,
+                  "Year": 3
+                },
+                {
+                  "Value": 3.88,
+                  "Year": 4
+                },
+                {
+                  "Value": 3.88,
+                  "Year": 5
+                },
+                {
+                  "Value": 3.88,
+                  "Year": 6
+                },
+                {
+                  "Value": 3.88,
+                  "Year": 7
+                },
+                {
+                  "Value": 3.88,
+                  "Year": 8
+                },
+                {
+                  "Value": 3.88,
+                  "Year": 9
+                },
+                {
+                  "Value": 3.88,
+                  "Year": 10
+                }
+              ]
+            },
+            {
+              "Name": "K",
+              "ListOfYears": [
+                {
+                  "Value": 5.85,
+                  "Year": 1
+                },
+                {
+                  "Value": 5.85,
+                  "Year": 2
+                },
+                {
+                  "Value": 5.85,
+                  "Year": 3
+                },
+                {
+                  "Value": 5.85,
+                  "Year": 4
+                },
+                {
+                  "Value": 5.85,
+                  "Year": 5
+                },
+                {
+                  "Value": 5.85,
+                  "Year": 6
+                },
+                {
+                  "Value": 5.85,
+                  "Year": 7
+                },
+                {
+                  "Value": 5.85,
+                  "Year": 8
+                },
+                {
+                  "Value": 5.85,
+                  "Year": 9
+                },
+                {
+                  "Value": 5.85,
+                  "Year": 10
+                }
+              ]
+            },
+            {
+              "Name": "Rpr",
+              "ListOfYears": [
+                {
+                  "Value": 0,
+                  "Year": 1
+                },
+                {
+                  "Value": 0,
+                  "Year": 2
+                },
+                {
+                  "Value": 0,
+                  "Year": 3
+                },
+                {
+                  "Value": 0,
+                  "Year": 4
+                },
+                {
+                  "Value": 0,
+                  "Year": 5
+                },
+                {
+                  "Value": 0,
+                  "Year": 6
+                },
+                {
+                  "Value": 0,
+                  "Year": 7
+                },
+                {
+                  "Value": 0,
+                  "Year": 8
+                },
+                {
+                  "Value": 0,
+                  "Year": 9
+                },
+                {
+                  "Value": 0,
+                  "Year": 10
+                }
+              ]
+            },
+            {
+              "Name": "S",
+              "ListOfYears": [
+                {
+                  "Value": 1.65,
+                  "Year": 1
+                },
+                {
+                  "Value": 1.65,
+                  "Year": 2
+                },
+                {
+                  "Value": 1.65,
+                  "Year": 3
+                },
+                {
+                  "Value": 1.65,
+                  "Year": 4
+                },
+                {
+                  "Value": 1.65,
+                  "Year": 5
+                },
+                {
+                  "Value": 1.65,
+                  "Year": 6
+                },
+                {
+                  "Value": 1.65,
+                  "Year": 7
+                },
+                {
+                  "Value": 1.65,
+                  "Year": 8
+                },
+                {
+                  "Value": 1.65,
+                  "Year": 9
+                },
+                {
+                  "Value": 1.65,
+                  "Year": 10
+                }
+              ]
+            },
+            {
+              "Name": "Ca",
+              "ListOfYears": [
+                {
+                  "Value": 0,
+                  "Year": 1
+                },
+                {
+                  "Value": 0,
+                  "Year": 2
+                },
+                {
+                  "Value": 0,
+                  "Year": 3
+                },
+                {
+                  "Value": 0,
+                  "Year": 4
+                },
+                {
+                  "Value": 0,
+                  "Year": 5
+                },
+                {
+                  "Value": 0,
+                  "Year": 6
+                },
+                {
+                  "Value": 0,
+                  "Year": 7
+                },
+                {
+                  "Value": 0,
+                  "Year": 8
+                },
+                {
+                  "Value": 0,
+                  "Year": 9
+                },
+                {
+                  "Value": 0,
+                  "Year": 10
+                }
+              ]
+            }
+          ],
+          "TypeOfReport": "Costs"
+        },
+        {
+          "$type": "Econometric.Schema.ScenarioModal.YearValueReport, Econometric.Schema",
+          "ListOfYears": [
+            {
+              "Value": 1202.19,
+              "Year": 1
+            },
+            {
+              "Value": 1134.62,
+              "Year": 2
+            },
+            {
+              "Value": 1072.59,
+              "Year": 3
+            },
+            {
+              "Value": 1015.54,
+              "Year": 4
+            },
+            {
+              "Value": 962.13,
+              "Year": 5
+            },
+            {
+              "Value": 910.79,
+              "Year": 6
+            },
+            {
+              "Value": 860.13,
+              "Year": 7
+            },
+            {
+              "Value": 809.39,
+              "Year": 8
+            },
+            {
+              "Value": 758.54,
+              "Year": 9
+            },
+            {
+              "Value": 708.09,
+              "Year": 10
+            }
+          ],
+          "TypeOfReport": "MilkProduction"
+        },
+        {
+          "$type": "Econometric.Schema.ScenarioModal.YearValueReport, Econometric.Schema",
+          "ListOfYears": [
+            {
+              "Value": 0.87,
+              "Year": 1
+            },
+            {
+              "Value": 0.82,
+              "Year": 2
+            },
+            {
+              "Value": 0.78,
+              "Year": 3
+            },
+            {
+              "Value": 0.74,
+              "Year": 4
+            },
+            {
+              "Value": 0.7,
+              "Year": 5
+            },
+            {
+              "Value": 0.66,
+              "Year": 6
+            },
+            {
+              "Value": 0.62,
+              "Year": 7
+            },
+            {
+              "Value": 0.59,
+              "Year": 8
+            },
+            {
+              "Value": 0.55,
+              "Year": 9
+            },
+            {
+              "Value": 0.51,
+              "Year": 10
+            }
+          ],
+          "TypeOfReport": "RelativeYield"
+        },
+        {
+          "$type": "Econometric.Schema.ScenarioModal.NutrientReport, Econometric.Schema",
+          "Nutrients": [
+            {
+              "Name": "P",
+              "ListOfYears": [
+                {
+                  "Value": 251.83,
+                  "Year": 1
+                },
+                {
+                  "Value": 223.45,
+                  "Year": 2
+                },
+                {
+                  "Value": 197.99,
+                  "Year": 3
+                },
+                {
+                  "Value": 175.18,
+                  "Year": 4
+                },
+                {
+                  "Value": 154.78,
+                  "Year": 5
+                },
+                {
+                  "Value": 136.59,
+                  "Year": 6
+                },
+                {
+                  "Value": 120.45,
+                  "Year": 7
+                },
+                {
+                  "Value": 106.2,
+                  "Year": 8
+                },
+                {
+                  "Value": 93.72,
+                  "Year": 9
+                },
+                {
+                  "Value": 82.86,
+                  "Year": 10
+                }
+              ]
+            },
+            {
+              "Name": "K",
+              "ListOfYears": [
+                {
+                  "Value": 8.35,
+                  "Year": 1
+                },
+                {
+                  "Value": 7.24,
+                  "Year": 2
+                },
+                {
+                  "Value": 6.56,
+                  "Year": 3
+                },
+                {
+                  "Value": 6.19,
+                  "Year": 4
+                },
+                {
+                  "Value": 6.04,
+                  "Year": 5
+                },
+                {
+                  "Value": 6.05,
+                  "Year": 6
+                },
+                {
+                  "Value": 6.15,
+                  "Year": 7
+                },
+                {
+                  "Value": 6.33,
+                  "Year": 8
+                },
+                {
+                  "Value": 6.56,
+                  "Year": 9
+                },
+                {
+                  "Value": 6.84,
+                  "Year": 10
+                }
+              ]
+            },
+            {
+              "Name": "Rpr",
+              "ListOfYears": [
+                {
+                  "Value": 0,
+                  "Year": 1
+                },
+                {
+                  "Value": 0,
+                  "Year": 2
+                },
+                {
+                  "Value": 0,
+                  "Year": 3
+                },
+                {
+                  "Value": 0,
+                  "Year": 4
+                },
+                {
+                  "Value": 0,
+                  "Year": 5
+                },
+                {
+                  "Value": 0,
+                  "Year": 6
+                },
+                {
+                  "Value": 0,
+                  "Year": 7
+                },
+                {
+                  "Value": 0,
+                  "Year": 8
+                },
+                {
+                  "Value": 0,
+                  "Year": 9
+                },
+                {
+                  "Value": 0,
+                  "Year": 10
+                }
+              ]
+            },
+            {
+              "Name": "ElementalS",
+              "ListOfYears": [
+                {
+                  "Value": 0,
+                  "Year": 1
+                },
+                {
+                  "Value": 0,
+                  "Year": 2
+                },
+                {
+                  "Value": 0,
+                  "Year": 3
+                },
+                {
+                  "Value": 0,
+                  "Year": 4
+                },
+                {
+                  "Value": 0,
+                  "Year": 5
+                },
+                {
+                  "Value": 0,
+                  "Year": 6
+                },
+                {
+                  "Value": 0,
+                  "Year": 7
+                },
+                {
+                  "Value": 0,
+                  "Year": 8
+                },
+                {
+                  "Value": 0,
+                  "Year": 9
+                },
+                {
+                  "Value": 0,
+                  "Year": 10
+                }
+              ]
+            },
+            {
+              "Name": "Ca",
+              "ListOfYears": [
+                {
+                  "Value": 5.8,
+                  "Year": 1
+                },
+                {
+                  "Value": 0,
+                  "Year": 2
+                },
+                {
+                  "Value": 0,
+                  "Year": 3
+                },
+                {
+                  "Value": 0,
+                  "Year": 4
+                },
+                {
+                  "Value": 0,
+                  "Year": 5
+                },
+                {
+                  "Value": 0,
+                  "Year": 6
+                },
+                {
+                  "Value": 0,
+                  "Year": 7
+                },
+                {
+                  "Value": 0,
+                  "Year": 8
+                },
+                {
+                  "Value": 0,
+                  "Year": 9
+                },
+                {
+                  "Value": 0,
+                  "Year": 10
+                }
+              ]
+            }
+          ],
+          "TypeOfReport": "Soil"
+        },
+        {
+          "$type": "Econometric.Schema.ScenarioModal.NutrientReport, Econometric.Schema",
+          "Nutrients": [
+            {
+              "Name": "P",
+              "ListOfYears": [
+                {
+                  "Value": 0,
+                  "Year": 1
+                },
+                {
+                  "Value": 0,
+                  "Year": 2
+                },
+                {
+                  "Value": 0,
+                  "Year": 3
+                },
+                {
+                  "Value": 0,
+                  "Year": 4
+                },
+                {
+                  "Value": 0,
+                  "Year": 5
+                },
+                {
+                  "Value": 0,
+                  "Year": 6
+                },
+                {
+                  "Value": 0,
+                  "Year": 7
+                },
+                {
+                  "Value": 0,
+                  "Year": 8
+                },
+                {
+                  "Value": 0,
+                  "Year": 9
+                },
+                {
+                  "Value": 0,
+                  "Year": 10
+                }
+              ]
+            },
+            {
+              "Name": "K",
+              "ListOfYears": [
+                {
+                  "Value": 0,
+                  "Year": 1
+                },
+                {
+                  "Value": 0,
+                  "Year": 2
+                },
+                {
+                  "Value": 0,
+                  "Year": 3
+                },
+                {
+                  "Value": 0,
+                  "Year": 4
+                },
+                {
+                  "Value": 0,
+                  "Year": 5
+                },
+                {
+                  "Value": 0,
+                  "Year": 6
+                },
+                {
+                  "Value": 0,
+                  "Year": 7
+                },
+                {
+                  "Value": 0,
+                  "Year": 8
+                },
+                {
+                  "Value": 0,
+                  "Year": 9
+                },
+                {
+                  "Value": 0,
+                  "Year": 10
+                }
+              ]
+            },
+            {
+              "Name": "S",
+              "ListOfYears": [
+                {
+                  "Value": 0,
+                  "Year": 1
+                },
+                {
+                  "Value": 0,
+                  "Year": 2
+                },
+                {
+                  "Value": 0,
+                  "Year": 3
+                },
+                {
+                  "Value": 0,
+                  "Year": 4
+                },
+                {
+                  "Value": 0,
+                  "Year": 5
+                },
+                {
+                  "Value": 0,
+                  "Year": 6
+                },
+                {
+                  "Value": 0,
+                  "Year": 7
+                },
+                {
+                  "Value": 0,
+                  "Year": 8
+                },
+                {
+                  "Value": 0,
+                  "Year": 9
+                },
+                {
+                  "Value": 0,
+                  "Year": 10
+                }
+              ]
+            },
+            {
+              "Name": "Ca",
+              "ListOfYears": [
+                {
+                  "Value": 0,
+                  "Year": 1
+                },
+                {
+                  "Value": 0,
+                  "Year": 2
+                },
+                {
+                  "Value": 0,
+                  "Year": 3
+                },
+                {
+                  "Value": 0,
+                  "Year": 4
+                },
+                {
+                  "Value": 0,
+                  "Year": 5
+                },
+                {
+                  "Value": 0,
+                  "Year": 6
+                },
+                {
+                  "Value": 0,
+                  "Year": 7
+                },
+                {
+                  "Value": 0,
+                  "Year": 8
+                },
+                {
+                  "Value": 0,
+                  "Year": 9
+                },
+                {
+                  "Value": 0,
+                  "Year": 10
+                }
+              ]
+            }
+          ],
+          "TypeOfReport": "Loss"
+        },
+        {
+          "$type": "Econometric.Schema.ScenarioModal.YearValueReport, Econometric.Schema",
+          "ListOfYears": [
+            {
+              "Value": 13.88,
+              "Year": 1
+            },
+            {
+              "Value": 12.03,
+              "Year": 2
+            },
+            {
+              "Value": 10.4,
+              "Year": 3
+            },
+            {
+              "Value": 8.98,
+              "Year": 4
+            },
+            {
+              "Value": 7.74,
+              "Year": 5
+            },
+            {
+              "Value": 6.66,
+              "Year": 6
+            },
+            {
+              "Value": 5.73,
+              "Year": 7
+            },
+            {
+              "Value": 4.93,
+              "Year": 8
+            },
+            {
+              "Value": 4.24,
+              "Year": 9
+            },
+            {
+              "Value": 3.66,
+              "Year": 10
+            }
+          ],
+          "TypeOfReport": "OlsenP"
+        },
+        {
+          "$type": "Econometric.Schema.ScenarioModal.NutrientReport, Econometric.Schema",
+          "Nutrients": [
+            {
+              "Name": "P",
+              "ListOfYears": [
+                {
+                  "Value": 0,
+                  "Year": 1
+                },
+                {
+                  "Value": 0,
+                  "Year": 2
+                },
+                {
+                  "Value": 0,
+                  "Year": 3
+                },
+                {
+                  "Value": 0,
+                  "Year": 4
+                },
+                {
+                  "Value": 0,
+                  "Year": 5
+                },
+                {
+                  "Value": 0,
+                  "Year": 6
+                },
+                {
+                  "Value": 0,
+                  "Year": 7
+                },
+                {
+                  "Value": 0,
+                  "Year": 8
+                },
+                {
+                  "Value": 0,
+                  "Year": 9
+                },
+                {
+                  "Value": 0,
+                  "Year": 10
+                }
+              ]
+            },
+            {
+              "Name": "K",
+              "ListOfYears": [
+                {
+                  "Value": 0,
+                  "Year": 1
+                },
+                {
+                  "Value": 0,
+                  "Year": 2
+                },
+                {
+                  "Value": 0,
+                  "Year": 3
+                },
+                {
+                  "Value": 0,
+                  "Year": 4
+                },
+                {
+                  "Value": 0,
+                  "Year": 5
+                },
+                {
+                  "Value": 0,
+                  "Year": 6
+                },
+                {
+                  "Value": 0,
+                  "Year": 7
+                },
+                {
+                  "Value": 0,
+                  "Year": 8
+                },
+                {
+                  "Value": 0,
+                  "Year": 9
+                },
+                {
+                  "Value": 0,
+                  "Year": 10
+                }
+              ]
+            },
+            {
+              "Name": "S",
+              "ListOfYears": [
+                {
+                  "Value": 0,
+                  "Year": 1
+                },
+                {
+                  "Value": 0,
+                  "Year": 2
+                },
+                {
+                  "Value": 0,
+                  "Year": 3
+                },
+                {
+                  "Value": 0,
+                  "Year": 4
+                },
+                {
+                  "Value": 0,
+                  "Year": 5
+                },
+                {
+                  "Value": 0,
+                  "Year": 6
+                },
+                {
+                  "Value": 0,
+                  "Year": 7
+                },
+                {
+                  "Value": 0,
+                  "Year": 8
+                },
+                {
+                  "Value": 0,
+                  "Year": 9
+                },
+                {
+                  "Value": 0,
+                  "Year": 10
+                }
+              ]
+            },
+            {
+              "Name": "Ca",
+              "ListOfYears": [
+                {
+                  "Value": 0,
+                  "Year": 1
+                },
+                {
+                  "Value": 0,
+                  "Year": 2
+                },
+                {
+                  "Value": 0,
+                  "Year": 3
+                },
+                {
+                  "Value": 0,
+                  "Year": 4
+                },
+                {
+                  "Value": 0,
+                  "Year": 5
+                },
+                {
+                  "Value": 0,
+                  "Year": 6
+                },
+                {
+                  "Value": 0,
+                  "Year": 7
+                },
+                {
+                  "Value": 0,
+                  "Year": 8
+                },
+                {
+                  "Value": 0,
+                  "Year": 9
+                },
+                {
+                  "Value": 0,
+                  "Year": 10
+                }
+              ]
+            }
+          ],
+          "TypeOfReport": "Inputs"
+        },
+        {
+          "$type": "Econometric.Schema.ScenarioModal.YearValueReport, Econometric.Schema",
+          "ListOfYears": [
+            {
+              "Value": 11.37,
+              "Year": 1
+            },
+            {
+              "Value": 11.37,
+              "Year": 2
+            },
+            {
+              "Value": 11.37,
+              "Year": 3
+            },
+            {
+              "Value": 11.37,
+              "Year": 4
+            },
+            {
+              "Value": 11.37,
+              "Year": 5
+            },
+            {
+              "Value": 11.37,
+              "Year": 6
+            },
+            {
+              "Value": 11.37,
+              "Year": 7
+            },
+            {
+              "Value": 11.37,
+              "Year": 8
+            },
+            {
+              "Value": 11.37,
+              "Year": 9
+            },
+            {
+              "Value": 11.37,
+              "Year": 10
+            }
+          ],
+          "TypeOfReport": "Fertiliser"
+        },
+        {
+          "$type": "Econometric.Schema.ScenarioModal.YearValueReport, Econometric.Schema",
+          "ListOfYears": [
+            {
+              "Value": 29,
+              "Year": 1
+            },
+            {
+              "Value": 27.37,
+              "Year": 2
+            },
+            {
+              "Value": 25.88,
+              "Year": 3
+            },
+            {
+              "Value": 24.5,
+              "Year": 4
+            },
+            {
+              "Value": 23.21,
+              "Year": 5
+            },
+            {
+              "Value": 21.97,
+              "Year": 6
+            },
+            {
+              "Value": 20.75,
+              "Year": 7
+            },
+            {
+              "Value": 19.53,
+              "Year": 8
+            },
+            {
+              "Value": 18.3,
+              "Year": 9
+            },
+            {
+              "Value": 17.08,
+              "Year": 10
+            }
+          ],
+          "TypeOfReport": "StockingRate"
+        },
+        {
+          "$type": "Econometric.Schema.ScenarioModal.YearValueReport, Econometric.Schema",
+          "ListOfYears": [
+            {
+              "Value": 0,
+              "Year": 1
+            },
+            {
+              "Value": 0,
+              "Year": 2
+            },
+            {
+              "Value": 0,
+              "Year": 3
+            },
+            {
+              "Value": 0,
+              "Year": 4
+            },
+            {
+              "Value": 0,
+              "Year": 5
+            },
+            {
+              "Value": 0,
+              "Year": 6
+            },
+            {
+              "Value": 0,
+              "Year": 7
+            },
+            {
+              "Value": 0,
+              "Year": 8
+            },
+            {
+              "Value": 0,
+              "Year": 9
+            },
+            {
+              "Value": 0,
+              "Year": 10
+            }
+          ],
+          "TypeOfReport": "StockAdjustments"
+        },
+        {
+          "$type": "Econometric.Schema.ScenarioModal.WorkSpaceReport, Econometric.Schema",
+          "RelativeYield": {
+            "Nutrients": [
+              {
+                "Name": "P",
+                "ListOfYears": [
+                  {
+                    "Value": 74.84,
+                    "Year": 1
+                  },
+                  {
+                    "Value": 73.01,
+                    "Year": 2
+                  },
+                  {
+                    "Value": 70.83,
+                    "Year": 3
+                  },
+                  {
+                    "Value": 68.29,
+                    "Year": 4
+                  },
+                  {
+                    "Value": 65.42,
+                    "Year": 5
+                  },
+                  {
+                    "Value": 62.27,
+                    "Year": 6
+                  },
+                  {
+                    "Value": 58.89,
+                    "Year": 7
+                  },
+                  {
+                    "Value": 55.35,
+                    "Year": 8
+                  },
+                  {
+                    "Value": 51.75,
+                    "Year": 9
+                  },
+                  {
+                    "Value": 48.15,
+                    "Year": 10
+                  }
+                ]
+              },
+              {
+                "Name": "K",
+                "ListOfYears": [
+                  {
+                    "Value": 79.73,
+                    "Year": 1
+                  },
+                  {
+                    "Value": 79.32,
+                    "Year": 2
+                  },
+                  {
+                    "Value": 78.72,
+                    "Year": 3
+                  },
+                  {
+                    "Value": 78.12,
+                    "Year": 4
+                  },
+                  {
+                    "Value": 77.69,
+                    "Year": 5
+                  },
+                  {
+                    "Value": 77.49,
+                    "Year": 6
+                  },
+                  {
+                    "Value": 77.5,
+                    "Year": 7
+                  },
+                  {
+                    "Value": 77.64,
+                    "Year": 8
+                  },
+                  {
+                    "Value": 77.87,
+                    "Year": 9
+                  },
+                  {
+                    "Value": 78.13,
+                    "Year": 10
+                  }
+                ]
+              },
+              {
+                "Name": "S",
+                "ListOfYears": [
+                  {
+                    "Value": 74.76,
+                    "Year": 1
+                  },
+                  {
+                    "Value": 72.7,
+                    "Year": 2
+                  },
+                  {
+                    "Value": 71.39,
+                    "Year": 3
+                  },
+                  {
+                    "Value": 70.64,
+                    "Year": 4
+                  },
+                  {
+                    "Value": 70.25,
+                    "Year": 5
+                  },
+                  {
+                    "Value": 70.04,
+                    "Year": 6
+                  },
+                  {
+                    "Value": 69.94,
+                    "Year": 7
+                  },
+                  {
+                    "Value": 69.88,
+                    "Year": 8
+                  },
+                  {
+                    "Value": 69.86,
+                    "Year": 9
+                  },
+                  {
+                    "Value": 69.85,
+                    "Year": 10
+                  }
+                ]
+              },
+              {
+                "Name": "Ca",
+                "ListOfYears": [
+                  {
+                    "Value": 80,
+                    "Year": 1
+                  },
+                  {
+                    "Value": 80,
+                    "Year": 2
+                  },
+                  {
+                    "Value": 80,
+                    "Year": 3
+                  },
+                  {
+                    "Value": 80,
+                    "Year": 4
+                  },
+                  {
+                    "Value": 80,
+                    "Year": 5
+                  },
+                  {
+                    "Value": 80,
+                    "Year": 6
+                  },
+                  {
+                    "Value": 80,
+                    "Year": 7
+                  },
+                  {
+                    "Value": 80,
+                    "Year": 8
+                  },
+                  {
+                    "Value": 80,
+                    "Year": 9
+                  },
+                  {
+                    "Value": 80,
+                    "Year": 10
+                  }
+                ]
+              }
+            ],
+            "TypeOfReport": "RelativeYield"
+          },
+          "OlsenP": {
+            "ListOfYears": [
+              {
+                "Value": 13.88,
+                "Year": 1
+              },
+              {
+                "Value": 12.03,
+                "Year": 2
+              },
+              {
+                "Value": 10.4,
+                "Year": 3
+              },
+              {
+                "Value": 8.98,
+                "Year": 4
+              },
+              {
+                "Value": 7.74,
+                "Year": 5
+              },
+              {
+                "Value": 6.66,
+                "Year": 6
+              },
+              {
+                "Value": 5.73,
+                "Year": 7
+              },
+              {
+                "Value": 4.93,
+                "Year": 8
+              },
+              {
+                "Value": 4.24,
+                "Year": 9
+              },
+              {
+                "Value": 3.66,
+                "Year": 10
+              }
+            ],
+            "TypeOfReport": "OlsenP"
+          },
+          "QuickTestK": {
+            "ListOfYears": [
+              {
+                "Value": 8.35,
+                "Year": 1
+              },
+              {
+                "Value": 7.24,
+                "Year": 2
+              },
+              {
+                "Value": 6.56,
+                "Year": 3
+              },
+              {
+                "Value": 6.19,
+                "Year": 4
+              },
+              {
+                "Value": 6.04,
+                "Year": 5
+              },
+              {
+                "Value": 6.05,
+                "Year": 6
+              },
+              {
+                "Value": 6.15,
+                "Year": 7
+              },
+              {
+                "Value": 6.33,
+                "Year": 8
+              },
+              {
+                "Value": 6.56,
+                "Year": 9
+              },
+              {
+                "Value": 6.84,
+                "Year": 10
+              }
+            ],
+            "TypeOfReport": "Soil"
+          },
+          "QuickCa": {
+            "ListOfYears": [
+              {
+                "Value": 5.8,
+                "Year": 1
+              },
+              {
+                "Value": 0,
+                "Year": 2
+              },
+              {
+                "Value": 0,
+                "Year": 3
+              },
+              {
+                "Value": 0,
+                "Year": 4
+              },
+              {
+                "Value": 0,
+                "Year": 5
+              },
+              {
+                "Value": 0,
+                "Year": 6
+              },
+              {
+                "Value": 0,
+                "Year": 7
+              },
+              {
+                "Value": 0,
+                "Year": 8
+              },
+              {
+                "Value": 0,
+                "Year": 9
+              },
+              {
+                "Value": 0,
+                "Year": 10
+              }
+            ],
+            "TypeOfReport": "Soil"
+          },
+          "TypeOfReport": "WorkSpace"
+        },
+        {
+          "$type": "Econometric.Schema.ScenarioModal.YearValueReport, Econometric.Schema",
+          "ListOfYears": [
+            {
+              "Value": 93.53000000000065,
+              "Year": 1
+            },
+            {
+              "Value": 308.0499999999993,
+              "Year": 2
+            },
+            {
+              "Value": 610.5400000000009,
+              "Year": 3
+            },
+            {
+              "Value": 963.6500000000015,
+              "Year": 4
+            },
+            {
+              "Value": 1344.3500000000058,
+              "Year": 5
+            },
+            {
+              "Value": 1743.280000000006,
+              "Year": 6
+            },
+            {
+              "Value": 2158.6600000000035,
+              "Year": 7
+            },
+            {
+              "Value": 2591.6200000000026,
+              "Year": 8
+            },
+            {
+              "Value": 3043.8700000000026,
+              "Year": 9
+            },
+            {
+              "Value": 3516.709999999999,
+              "Year": 10
+            }
+          ],
+          "TypeOfReport": "Npv"
+        },
+        {
+          "$type": "Econometric.Schema.ScenarioModal.YearValueReport, Econometric.Schema",
+          "ListOfYears": [
+            {
+              "Value": 0,
+              "Year": 2
+            },
+            {
+              "Value": 0,
+              "Year": 3
+            },
+            {
+              "Value": 0,
+              "Year": 4
+            },
+            {
+              "Value": 0,
+              "Year": 5
+            },
+            {
+              "Value": 0,
+              "Year": 6
+            },
+            {
+              "Value": 0,
+              "Year": 7
+            },
+            {
+              "Value": 0,
+              "Year": 8
+            },
+            {
+              "Value": 0,
+              "Year": 9
+            },
+            {
+              "Value": 0,
+              "Year": 10
+            }
+          ],
+          "TypeOfReport": "Irr"
+        },
+        {
+          "$type": "Econometric.Schema.ScenarioModal.YearValueReport, Econometric.Schema",
+          "ListOfYears": [
+            {
+              "Value": 6901.650000000001,
+              "Year": 1
+            },
+            {
+              "Value": 6513.1,
+              "Year": 2
+            },
+            {
+              "Value": 6156.400000000001,
+              "Year": 3
+            },
+            {
+              "Value": 5828.35,
+              "Year": 4
+            },
+            {
+              "Value": 5521.1900000000005,
+              "Year": 5
+            },
+            {
+              "Value": 5225.9800000000005,
+              "Year": 6
+            },
+            {
+              "Value": 4934.7,
+              "Year": 7
+            },
+            {
+              "Value": 4642.93,
+              "Year": 8
+            },
+            {
+              "Value": 4350.49,
+              "Year": 9
+            },
+            {
+              "Value": 4060.38,
+              "Year": 10
+            }
+          ],
+          "TypeOfReport": "GrossMargin"
+        }
+      ]
+    },
+    {
+      "Id": 1,
+      "Name": "Pastoral 2",
+      "Nutrients": [
+        {
+          "Name": "P",
+          "ListOfYears": [
+            {
+              "Value": 30.4,
+              "Year": 1
+            },
+            {
+              "Value": 30.4,
+              "Year": 2
+            },
+            {
+              "Value": 30.4,
+              "Year": 3
+            },
+            {
+              "Value": 30.4,
+              "Year": 4
+            },
+            {
+              "Value": 30.4,
+              "Year": 5
+            },
+            {
+              "Value": 30.4,
+              "Year": 6
+            },
+            {
+              "Value": 30.4,
+              "Year": 7
+            },
+            {
+              "Value": 30.4,
+              "Year": 8
+            },
+            {
+              "Value": 30.4,
+              "Year": 9
+            },
+            {
+              "Value": 30.4,
+              "Year": 10
+            }
+          ]
+        },
+        {
+          "Name": "K",
+          "ListOfYears": [
+            {
+              "Value": 60,
+              "Year": 1
+            },
+            {
+              "Value": 60,
+              "Year": 2
+            },
+            {
+              "Value": 60,
+              "Year": 3
+            },
+            {
+              "Value": 60,
+              "Year": 4
+            },
+            {
+              "Value": 60,
+              "Year": 5
+            },
+            {
+              "Value": 60,
+              "Year": 6
+            },
+            {
+              "Value": 60,
+              "Year": 7
+            },
+            {
+              "Value": 60,
+              "Year": 8
+            },
+            {
+              "Value": 60,
+              "Year": 9
+            },
+            {
+              "Value": 60,
+              "Year": 10
+            }
+          ]
+        },
+        {
+          "Name": "S",
+          "ListOfYears": [
+            {
+              "Value": 32.4,
+              "Year": 1
+            },
+            {
+              "Value": 32.4,
+              "Year": 2
+            },
+            {
+              "Value": 32.4,
+              "Year": 3
+            },
+            {
+              "Value": 32.4,
+              "Year": 4
+            },
+            {
+              "Value": 32.4,
+              "Year": 5
+            },
+            {
+              "Value": 32.4,
+              "Year": 6
+            },
+            {
+              "Value": 32.4,
+              "Year": 7
+            },
+            {
+              "Value": 32.4,
+              "Year": 8
+            },
+            {
+              "Value": 32.4,
+              "Year": 9
+            },
+            {
+              "Value": 32.4,
+              "Year": 10
+            }
+          ]
+        },
+        {
+          "Name": "Rpr",
+          "ListOfYears": [
+            {
+              "Value": 0,
+              "Year": 1
+            },
+            {
+              "Value": 0,
+              "Year": 2
+            },
+            {
+              "Value": 0,
+              "Year": 3
+            },
+            {
+              "Value": 0,
+              "Year": 4
+            },
+            {
+              "Value": 0,
+              "Year": 5
+            },
+            {
+              "Value": 0,
+              "Year": 6
+            },
+            {
+              "Value": 0,
+              "Year": 7
+            },
+            {
+              "Value": 0,
+              "Year": 8
+            },
+            {
+              "Value": 0,
+              "Year": 9
+            },
+            {
+              "Value": 0,
+              "Year": 10
+            }
+          ]
+        },
+        {
+          "Name": "ElementalS",
+          "ListOfYears": [
+            {
+              "Value": 0,
+              "Year": 1
+            },
+            {
+              "Value": 0,
+              "Year": 2
+            },
+            {
+              "Value": 0,
+              "Year": 3
+            },
+            {
+              "Value": 0,
+              "Year": 4
+            },
+            {
+              "Value": 0,
+              "Year": 5
+            },
+            {
+              "Value": 0,
+              "Year": 6
+            },
+            {
+              "Value": 0,
+              "Year": 7
+            },
+            {
+              "Value": 0,
+              "Year": 8
+            },
+            {
+              "Value": 0,
+              "Year": 9
+            },
+            {
+              "Value": 0,
+              "Year": 10
+            }
+          ]
+        },
+        {
+          "Name": "Ca",
+          "ListOfYears": [
+            {
+              "Value": 0,
+              "Year": 1
+            },
+            {
+              "Value": 0,
+              "Year": 2
+            },
+            {
+              "Value": 0,
+              "Year": 3
+            },
+            {
+              "Value": 0,
+              "Year": 4
+            },
+            {
+              "Value": 0,
+              "Year": 5
+            },
+            {
+              "Value": 0,
+              "Year": 6
+            },
+            {
+              "Value": 0,
+              "Year": 7
+            },
+            {
+              "Value": 0,
+              "Year": 8
+            },
+            {
+              "Value": 0,
+              "Year": 9
+            },
+            {
+              "Value": 0,
+              "Year": 10
+            }
+          ]
+        }
+      ],
+      "Reports": [
+        {
+          "$type": "Econometric.Schema.ScenarioModal.YearValueReport, Econometric.Schema",
+          "ListOfYears": [
+            {
+              "Value": 8580.93,
+              "Year": 1
+            },
+            {
+              "Value": 8655.87,
+              "Year": 2
+            },
+            {
+              "Value": 8619.66,
+              "Year": 3
+            },
+            {
+              "Value": 8556.12,
+              "Year": 4
+            },
+            {
+              "Value": 8486.7,
+              "Year": 5
+            },
+            {
+              "Value": 8421.83,
+              "Year": 6
+            },
+            {
+              "Value": 8365.55,
+              "Year": 7
+            },
+            {
+              "Value": 8317.82,
+              "Year": 8
+            },
+            {
+              "Value": 8277.02,
+              "Year": 9
+            },
+            {
+              "Value": 8241.43,
+              "Year": 10
+            }
+          ],
+          "TypeOfReport": "GrossReturns"
+        },
+        {
+          "$type": "Econometric.Schema.ScenarioModal.NutrientReport, Econometric.Schema",
+          "Nutrients": [
+            {
+              "Name": "P",
+              "ListOfYears": [
+                {
+                  "Value": 30.4,
+                  "Year": 1
+                },
+                {
+                  "Value": 30.4,
+                  "Year": 2
+                },
+                {
+                  "Value": 30.4,
+                  "Year": 3
+                },
+                {
+                  "Value": 30.4,
+                  "Year": 4
+                },
+                {
+                  "Value": 30.4,
+                  "Year": 5
+                },
+                {
+                  "Value": 30.4,
+                  "Year": 6
+                },
+                {
+                  "Value": 30.4,
+                  "Year": 7
+                },
+                {
+                  "Value": 30.4,
+                  "Year": 8
+                },
+                {
+                  "Value": 30.4,
+                  "Year": 9
+                },
+                {
+                  "Value": 30.4,
+                  "Year": 10
+                }
+              ]
+            },
+            {
+              "Name": "K",
+              "ListOfYears": [
+                {
+                  "Value": 60,
+                  "Year": 1
+                },
+                {
+                  "Value": 60,
+                  "Year": 2
+                },
+                {
+                  "Value": 60,
+                  "Year": 3
+                },
+                {
+                  "Value": 60,
+                  "Year": 4
+                },
+                {
+                  "Value": 60,
+                  "Year": 5
+                },
+                {
+                  "Value": 60,
+                  "Year": 6
+                },
+                {
+                  "Value": 60,
+                  "Year": 7
+                },
+                {
+                  "Value": 60,
+                  "Year": 8
+                },
+                {
+                  "Value": 60,
+                  "Year": 9
+                },
+                {
+                  "Value": 60,
+                  "Year": 10
+                }
+              ]
+            },
+            {
+              "Name": "Rpr",
+              "ListOfYears": [
+                {
+                  "Value": 0,
+                  "Year": 1
+                },
+                {
+                  "Value": 0,
+                  "Year": 2
+                },
+                {
+                  "Value": 0,
+                  "Year": 3
+                },
+                {
+                  "Value": 0,
+                  "Year": 4
+                },
+                {
+                  "Value": 0,
+                  "Year": 5
+                },
+                {
+                  "Value": 0,
+                  "Year": 6
+                },
+                {
+                  "Value": 0,
+                  "Year": 7
+                },
+                {
+                  "Value": 0,
+                  "Year": 8
+                },
+                {
+                  "Value": 0,
+                  "Year": 9
+                },
+                {
+                  "Value": 0,
+                  "Year": 10
+                }
+              ]
+            },
+            {
+              "Name": "S",
+              "ListOfYears": [
+                {
+                  "Value": 32.4,
+                  "Year": 1
+                },
+                {
+                  "Value": 32.4,
+                  "Year": 2
+                },
+                {
+                  "Value": 32.4,
+                  "Year": 3
+                },
+                {
+                  "Value": 32.4,
+                  "Year": 4
+                },
+                {
+                  "Value": 32.4,
+                  "Year": 5
+                },
+                {
+                  "Value": 32.4,
+                  "Year": 6
+                },
+                {
+                  "Value": 32.4,
+                  "Year": 7
+                },
+                {
+                  "Value": 32.4,
+                  "Year": 8
+                },
+                {
+                  "Value": 32.4,
+                  "Year": 9
+                },
+                {
+                  "Value": 32.4,
+                  "Year": 10
+                }
+              ]
+            },
+            {
+              "Name": "ElementalS",
+              "ListOfYears": [
+                {
+                  "Value": 0,
+                  "Year": 1
+                },
+                {
+                  "Value": 0,
+                  "Year": 2
+                },
+                {
+                  "Value": 0,
+                  "Year": 3
+                },
+                {
+                  "Value": 0,
+                  "Year": 4
+                },
+                {
+                  "Value": 0,
+                  "Year": 5
+                },
+                {
+                  "Value": 0,
+                  "Year": 6
+                },
+                {
+                  "Value": 0,
+                  "Year": 7
+                },
+                {
+                  "Value": 0,
+                  "Year": 8
+                },
+                {
+                  "Value": 0,
+                  "Year": 9
+                },
+                {
+                  "Value": 0,
+                  "Year": 10
+                }
+              ]
+            },
+            {
+              "Name": "Ca",
+              "ListOfYears": [
+                {
+                  "Value": 0,
+                  "Year": 1
+                },
+                {
+                  "Value": 0,
+                  "Year": 2
+                },
+                {
+                  "Value": 0,
+                  "Year": 3
+                },
+                {
+                  "Value": 0,
+                  "Year": 4
+                },
+                {
+                  "Value": 0,
+                  "Year": 5
+                },
+                {
+                  "Value": 0,
+                  "Year": 6
+                },
+                {
+                  "Value": 0,
+                  "Year": 7
+                },
+                {
+                  "Value": 0,
+                  "Year": 8
+                },
+                {
+                  "Value": 0,
+                  "Year": 9
+                },
+                {
+                  "Value": 0,
+                  "Year": 10
+                }
+              ]
+            }
+          ],
+          "TypeOfReport": "Applied"
+        },
+        {
+          "$type": "Econometric.Schema.ScenarioModal.NutrientReport, Econometric.Schema",
+          "Nutrients": [
+            {
+              "Name": "P",
+              "ListOfYears": [
+                {
+                  "Value": 51.68,
+                  "Year": 1
+                },
+                {
+                  "Value": 51.68,
+                  "Year": 2
+                },
+                {
+                  "Value": 51.68,
+                  "Year": 3
+                },
+                {
+                  "Value": 51.68,
+                  "Year": 4
+                },
+                {
+                  "Value": 51.68,
+                  "Year": 5
+                },
+                {
+                  "Value": 51.68,
+                  "Year": 6
+                },
+                {
+                  "Value": 51.68,
+                  "Year": 7
+                },
+                {
+                  "Value": 51.68,
+                  "Year": 8
+                },
+                {
+                  "Value": 51.68,
+                  "Year": 9
+                },
+                {
+                  "Value": 51.68,
+                  "Year": 10
+                }
+              ]
+            },
+            {
+              "Name": "K",
+              "ListOfYears": [
+                {
+                  "Value": 156,
+                  "Year": 1
+                },
+                {
+                  "Value": 156,
+                  "Year": 2
+                },
+                {
+                  "Value": 156,
+                  "Year": 3
+                },
+                {
+                  "Value": 156,
+                  "Year": 4
+                },
+                {
+                  "Value": 156,
+                  "Year": 5
+                },
+                {
+                  "Value": 156,
+                  "Year": 6
+                },
+                {
+                  "Value": 156,
+                  "Year": 7
+                },
+                {
+                  "Value": 156,
+                  "Year": 8
+                },
+                {
+                  "Value": 156,
+                  "Year": 9
+                },
+                {
+                  "Value": 156,
+                  "Year": 10
+                }
+              ]
+            },
+            {
+              "Name": "Rpr",
+              "ListOfYears": [
+                {
+                  "Value": 0,
+                  "Year": 1
+                },
+                {
+                  "Value": 0,
+                  "Year": 2
+                },
+                {
+                  "Value": 0,
+                  "Year": 3
+                },
+                {
+                  "Value": 0,
+                  "Year": 4
+                },
+                {
+                  "Value": 0,
+                  "Year": 5
+                },
+                {
+                  "Value": 0,
+                  "Year": 6
+                },
+                {
+                  "Value": 0,
+                  "Year": 7
+                },
+                {
+                  "Value": 0,
+                  "Year": 8
+                },
+                {
+                  "Value": 0,
+                  "Year": 9
+                },
+                {
+                  "Value": 0,
+                  "Year": 10
+                }
+              ]
+            },
+            {
+              "Name": "S",
+              "ListOfYears": [
+                {
+                  "Value": 18.14,
+                  "Year": 1
+                },
+                {
+                  "Value": 18.14,
+                  "Year": 2
+                },
+                {
+                  "Value": 18.14,
+                  "Year": 3
+                },
+                {
+                  "Value": 18.14,
+                  "Year": 4
+                },
+                {
+                  "Value": 18.14,
+                  "Year": 5
+                },
+                {
+                  "Value": 18.14,
+                  "Year": 6
+                },
+                {
+                  "Value": 18.14,
+                  "Year": 7
+                },
+                {
+                  "Value": 18.14,
+                  "Year": 8
+                },
+                {
+                  "Value": 18.14,
+                  "Year": 9
+                },
+                {
+                  "Value": 18.14,
+                  "Year": 10
+                }
+              ]
+            },
+            {
+              "Name": "Ca",
+              "ListOfYears": [
+                {
+                  "Value": 0,
+                  "Year": 1
+                },
+                {
+                  "Value": 0,
+                  "Year": 2
+                },
+                {
+                  "Value": 0,
+                  "Year": 3
+                },
+                {
+                  "Value": 0,
+                  "Year": 4
+                },
+                {
+                  "Value": 0,
+                  "Year": 5
+                },
+                {
+                  "Value": 0,
+                  "Year": 6
+                },
+                {
+                  "Value": 0,
+                  "Year": 7
+                },
+                {
+                  "Value": 0,
+                  "Year": 8
+                },
+                {
+                  "Value": 0,
+                  "Year": 9
+                },
+                {
+                  "Value": 0,
+                  "Year": 10
+                }
+              ]
+            }
+          ],
+          "TypeOfReport": "Costs"
+        },
+        {
+          "$type": "Econometric.Schema.ScenarioModal.YearValueReport, Econometric.Schema",
+          "ListOfYears": [
+            {
+              "Value": 932.7,
+              "Year": 1
+            },
+            {
+              "Value": 940.85,
+              "Year": 2
+            },
+            {
+              "Value": 936.91,
+              "Year": 3
+            },
+            {
+              "Value": 930.01,
+              "Year": 4
+            },
+            {
+              "Value": 922.46,
+              "Year": 5
+            },
+            {
+              "Value": 915.41,
+              "Year": 6
+            },
+            {
+              "Value": 909.29,
+              "Year": 7
+            },
+            {
+              "Value": 904.11,
+              "Year": 8
+            },
+            {
+              "Value": 899.67,
+              "Year": 9
+            },
+            {
+              "Value": 895.8,
+              "Year": 10
+            }
+          ],
+          "TypeOfReport": "MilkProduction"
+        },
+        {
+          "$type": "Econometric.Schema.ScenarioModal.YearValueReport, Econometric.Schema",
+          "ListOfYears": [
+            {
+              "Value": 0.93,
+              "Year": 1
+            },
+            {
+              "Value": 0.93,
+              "Year": 2
+            },
+            {
+              "Value": 0.93,
+              "Year": 3
+            },
+            {
+              "Value": 0.92,
+              "Year": 4
+            },
+            {
+              "Value": 0.92,
+              "Year": 5
+            },
+            {
+              "Value": 0.91,
+              "Year": 6
+            },
+            {
+              "Value": 0.9,
+              "Year": 7
+            },
+            {
+              "Value": 0.9,
+              "Year": 8
+            },
+            {
+              "Value": 0.89,
+              "Year": 9
+            },
+            {
+              "Value": 0.89,
+              "Year": 10
+            }
+          ],
+          "TypeOfReport": "RelativeYield"
+        },
+        {
+          "$type": "Econometric.Schema.ScenarioModal.NutrientReport, Econometric.Schema",
+          "Nutrients": [
+            {
+              "Name": "P",
+              "ListOfYears": [
+                {
+                  "Value": 273.85,
+                  "Year": 1
+                },
+                {
+                  "Value": 264.69,
+                  "Year": 2
+                },
+                {
+                  "Value": 256.28,
+                  "Year": 3
+                },
+                {
+                  "Value": 248.68,
+                  "Year": 4
+                },
+                {
+                  "Value": 241.83,
+                  "Year": 5
+                },
+                {
+                  "Value": 235.68,
+                  "Year": 6
+                },
+                {
+                  "Value": 230.14,
+                  "Year": 7
+                },
+                {
+                  "Value": 225.16,
+                  "Year": 8
+                },
+                {
+                  "Value": 220.66,
+                  "Year": 9
+                },
+                {
+                  "Value": 216.6,
+                  "Year": 10
+                }
+              ]
+            },
+            {
+              "Name": "K",
+              "ListOfYears": [
+                {
+                  "Value": 8.43,
+                  "Year": 1
+                },
+                {
+                  "Value": 7.17,
+                  "Year": 2
+                },
+                {
+                  "Value": 6.25,
+                  "Year": 3
+                },
+                {
+                  "Value": 5.64,
+                  "Year": 4
+                },
+                {
+                  "Value": 5.25,
+                  "Year": 5
+                },
+                {
+                  "Value": 5.03,
+                  "Year": 6
+                },
+                {
+                  "Value": 4.91,
+                  "Year": 7
+                },
+                {
+                  "Value": 4.86,
+                  "Year": 8
+                },
+                {
+                  "Value": 4.85,
+                  "Year": 9
+                },
+                {
+                  "Value": 4.85,
+                  "Year": 10
+                }
+              ]
+            },
+            {
+              "Name": "Rpr",
+              "ListOfYears": [
+                {
+                  "Value": 0,
+                  "Year": 1
+                },
+                {
+                  "Value": 0,
+                  "Year": 2
+                },
+                {
+                  "Value": 0,
+                  "Year": 3
+                },
+                {
+                  "Value": 0,
+                  "Year": 4
+                },
+                {
+                  "Value": 0,
+                  "Year": 5
+                },
+                {
+                  "Value": 0,
+                  "Year": 6
+                },
+                {
+                  "Value": 0,
+                  "Year": 7
+                },
+                {
+                  "Value": 0,
+                  "Year": 8
+                },
+                {
+                  "Value": 0,
+                  "Year": 9
+                },
+                {
+                  "Value": 0,
+                  "Year": 10
+                }
+              ]
+            },
+            {
+              "Name": "ElementalS",
+              "ListOfYears": [
+                {
+                  "Value": 0,
+                  "Year": 1
+                },
+                {
+                  "Value": 0,
+                  "Year": 2
+                },
+                {
+                  "Value": 0,
+                  "Year": 3
+                },
+                {
+                  "Value": 0,
+                  "Year": 4
+                },
+                {
+                  "Value": 0,
+                  "Year": 5
+                },
+                {
+                  "Value": 0,
+                  "Year": 6
+                },
+                {
+                  "Value": 0,
+                  "Year": 7
+                },
+                {
+                  "Value": 0,
+                  "Year": 8
+                },
+                {
+                  "Value": 0,
+                  "Year": 9
+                },
+                {
+                  "Value": 0,
+                  "Year": 10
+                }
+              ]
+            },
+            {
+              "Name": "Ca",
+              "ListOfYears": [
+                {
+                  "Value": 6,
+                  "Year": 1
+                },
+                {
+                  "Value": 0,
+                  "Year": 2
+                },
+                {
+                  "Value": 0,
+                  "Year": 3
+                },
+                {
+                  "Value": 0,
+                  "Year": 4
+                },
+                {
+                  "Value": 0,
+                  "Year": 5
+                },
+                {
+                  "Value": 0,
+                  "Year": 6
+                },
+                {
+                  "Value": 0,
+                  "Year": 7
+                },
+                {
+                  "Value": 0,
+                  "Year": 8
+                },
+                {
+                  "Value": 0,
+                  "Year": 9
+                },
+                {
+                  "Value": 0,
+                  "Year": 10
+                }
+              ]
+            }
+          ],
+          "TypeOfReport": "Soil"
+        },
+        {
+          "$type": "Econometric.Schema.ScenarioModal.NutrientReport, Econometric.Schema",
+          "Nutrients": [
+            {
+              "Name": "P",
+              "ListOfYears": [
+                {
+                  "Value": 0,
+                  "Year": 1
+                },
+                {
+                  "Value": 0,
+                  "Year": 2
+                },
+                {
+                  "Value": 0,
+                  "Year": 3
+                },
+                {
+                  "Value": 0,
+                  "Year": 4
+                },
+                {
+                  "Value": 0,
+                  "Year": 5
+                },
+                {
+                  "Value": 0,
+                  "Year": 6
+                },
+                {
+                  "Value": 0,
+                  "Year": 7
+                },
+                {
+                  "Value": 0,
+                  "Year": 8
+                },
+                {
+                  "Value": 0,
+                  "Year": 9
+                },
+                {
+                  "Value": 0,
+                  "Year": 10
+                }
+              ]
+            },
+            {
+              "Name": "K",
+              "ListOfYears": [
+                {
+                  "Value": 0,
+                  "Year": 1
+                },
+                {
+                  "Value": 0,
+                  "Year": 2
+                },
+                {
+                  "Value": 0,
+                  "Year": 3
+                },
+                {
+                  "Value": 0,
+                  "Year": 4
+                },
+                {
+                  "Value": 0,
+                  "Year": 5
+                },
+                {
+                  "Value": 0,
+                  "Year": 6
+                },
+                {
+                  "Value": 0,
+                  "Year": 7
+                },
+                {
+                  "Value": 0,
+                  "Year": 8
+                },
+                {
+                  "Value": 0,
+                  "Year": 9
+                },
+                {
+                  "Value": 0,
+                  "Year": 10
+                }
+              ]
+            },
+            {
+              "Name": "S",
+              "ListOfYears": [
+                {
+                  "Value": 0,
+                  "Year": 1
+                },
+                {
+                  "Value": 0,
+                  "Year": 2
+                },
+                {
+                  "Value": 0,
+                  "Year": 3
+                },
+                {
+                  "Value": 0,
+                  "Year": 4
+                },
+                {
+                  "Value": 0,
+                  "Year": 5
+                },
+                {
+                  "Value": 0,
+                  "Year": 6
+                },
+                {
+                  "Value": 0,
+                  "Year": 7
+                },
+                {
+                  "Value": 0,
+                  "Year": 8
+                },
+                {
+                  "Value": 0,
+                  "Year": 9
+                },
+                {
+                  "Value": 0,
+                  "Year": 10
+                }
+              ]
+            },
+            {
+              "Name": "Ca",
+              "ListOfYears": [
+                {
+                  "Value": 0,
+                  "Year": 1
+                },
+                {
+                  "Value": 0,
+                  "Year": 2
+                },
+                {
+                  "Value": 0,
+                  "Year": 3
+                },
+                {
+                  "Value": 0,
+                  "Year": 4
+                },
+                {
+                  "Value": 0,
+                  "Year": 5
+                },
+                {
+                  "Value": 0,
+                  "Year": 6
+                },
+                {
+                  "Value": 0,
+                  "Year": 7
+                },
+                {
+                  "Value": 0,
+                  "Year": 8
+                },
+                {
+                  "Value": 0,
+                  "Year": 9
+                },
+                {
+                  "Value": 0,
+                  "Year": 10
+                }
+              ]
+            }
+          ],
+          "TypeOfReport": "Loss"
+        },
+        {
+          "$type": "Econometric.Schema.ScenarioModal.YearValueReport, Econometric.Schema",
+          "ListOfYears": [
+            {
+              "Value": 15.35,
+              "Year": 1
+            },
+            {
+              "Value": 14.74,
+              "Year": 2
+            },
+            {
+              "Value": 14.18,
+              "Year": 3
+            },
+            {
+              "Value": 13.67,
+              "Year": 4
+            },
+            {
+              "Value": 13.22,
+              "Year": 5
+            },
+            {
+              "Value": 12.82,
+              "Year": 6
+            },
+            {
+              "Value": 12.46,
+              "Year": 7
+            },
+            {
+              "Value": 12.14,
+              "Year": 8
+            },
+            {
+              "Value": 11.85,
+              "Year": 9
+            },
+            {
+              "Value": 11.59,
+              "Year": 10
+            }
+          ],
+          "TypeOfReport": "OlsenP"
+        },
+        {
+          "$type": "Econometric.Schema.ScenarioModal.NutrientReport, Econometric.Schema",
+          "Nutrients": [
+            {
+              "Name": "P",
+              "ListOfYears": [
+                {
+                  "Value": 0,
+                  "Year": 1
+                },
+                {
+                  "Value": 0,
+                  "Year": 2
+                },
+                {
+                  "Value": 0,
+                  "Year": 3
+                },
+                {
+                  "Value": 0,
+                  "Year": 4
+                },
+                {
+                  "Value": 0,
+                  "Year": 5
+                },
+                {
+                  "Value": 0,
+                  "Year": 6
+                },
+                {
+                  "Value": 0,
+                  "Year": 7
+                },
+                {
+                  "Value": 0,
+                  "Year": 8
+                },
+                {
+                  "Value": 0,
+                  "Year": 9
+                },
+                {
+                  "Value": 0,
+                  "Year": 10
+                }
+              ]
+            },
+            {
+              "Name": "K",
+              "ListOfYears": [
+                {
+                  "Value": 0,
+                  "Year": 1
+                },
+                {
+                  "Value": 0,
+                  "Year": 2
+                },
+                {
+                  "Value": 0,
+                  "Year": 3
+                },
+                {
+                  "Value": 0,
+                  "Year": 4
+                },
+                {
+                  "Value": 0,
+                  "Year": 5
+                },
+                {
+                  "Value": 0,
+                  "Year": 6
+                },
+                {
+                  "Value": 0,
+                  "Year": 7
+                },
+                {
+                  "Value": 0,
+                  "Year": 8
+                },
+                {
+                  "Value": 0,
+                  "Year": 9
+                },
+                {
+                  "Value": 0,
+                  "Year": 10
+                }
+              ]
+            },
+            {
+              "Name": "S",
+              "ListOfYears": [
+                {
+                  "Value": 0,
+                  "Year": 1
+                },
+                {
+                  "Value": 0,
+                  "Year": 2
+                },
+                {
+                  "Value": 0,
+                  "Year": 3
+                },
+                {
+                  "Value": 0,
+                  "Year": 4
+                },
+                {
+                  "Value": 0,
+                  "Year": 5
+                },
+                {
+                  "Value": 0,
+                  "Year": 6
+                },
+                {
+                  "Value": 0,
+                  "Year": 7
+                },
+                {
+                  "Value": 0,
+                  "Year": 8
+                },
+                {
+                  "Value": 0,
+                  "Year": 9
+                },
+                {
+                  "Value": 0,
+                  "Year": 10
+                }
+              ]
+            },
+            {
+              "Name": "Ca",
+              "ListOfYears": [
+                {
+                  "Value": 0,
+                  "Year": 1
+                },
+                {
+                  "Value": 0,
+                  "Year": 2
+                },
+                {
+                  "Value": 0,
+                  "Year": 3
+                },
+                {
+                  "Value": 0,
+                  "Year": 4
+                },
+                {
+                  "Value": 0,
+                  "Year": 5
+                },
+                {
+                  "Value": 0,
+                  "Year": 6
+                },
+                {
+                  "Value": 0,
+                  "Year": 7
+                },
+                {
+                  "Value": 0,
+                  "Year": 8
+                },
+                {
+                  "Value": 0,
+                  "Year": 9
+                },
+                {
+                  "Value": 0,
+                  "Year": 10
+                }
+              ]
+            }
+          ],
+          "TypeOfReport": "Inputs"
+        },
+        {
+          "$type": "Econometric.Schema.ScenarioModal.YearValueReport, Econometric.Schema",
+          "ListOfYears": [
+            {
+              "Value": 225.82,
+              "Year": 1
+            },
+            {
+              "Value": 225.82,
+              "Year": 2
+            },
+            {
+              "Value": 225.82,
+              "Year": 3
+            },
+            {
+              "Value": 225.82,
+              "Year": 4
+            },
+            {
+              "Value": 225.82,
+              "Year": 5
+            },
+            {
+              "Value": 225.82,
+              "Year": 6
+            },
+            {
+              "Value": 225.82,
+              "Year": 7
+            },
+            {
+              "Value": 225.82,
+              "Year": 8
+            },
+            {
+              "Value": 225.82,
+              "Year": 9
+            },
+            {
+              "Value": 225.82,
+              "Year": 10
+            }
+          ],
+          "TypeOfReport": "Fertiliser"
+        },
+        {
+          "$type": "Econometric.Schema.ScenarioModal.YearValueReport, Econometric.Schema",
+          "ListOfYears": [
+            {
+              "Value": 35.98,
+              "Year": 1
+            },
+            {
+              "Value": 36.29,
+              "Year": 2
+            },
+            {
+              "Value": 36.14,
+              "Year": 3
+            },
+            {
+              "Value": 35.87,
+              "Year": 4
+            },
+            {
+              "Value": 35.58,
+              "Year": 5
+            },
+            {
+              "Value": 35.31,
+              "Year": 6
+            },
+            {
+              "Value": 35.07,
+              "Year": 7
+            },
+            {
+              "Value": 34.87,
+              "Year": 8
+            },
+            {
+              "Value": 34.7,
+              "Year": 9
+            },
+            {
+              "Value": 34.55,
+              "Year": 10
+            }
+          ],
+          "TypeOfReport": "StockingRate"
+        },
+        {
+          "$type": "Econometric.Schema.ScenarioModal.YearValueReport, Econometric.Schema",
+          "ListOfYears": [
+            {
+              "Value": 0,
+              "Year": 1
+            },
+            {
+              "Value": 0,
+              "Year": 2
+            },
+            {
+              "Value": 0,
+              "Year": 3
+            },
+            {
+              "Value": 0,
+              "Year": 4
+            },
+            {
+              "Value": 0,
+              "Year": 5
+            },
+            {
+              "Value": 0,
+              "Year": 6
+            },
+            {
+              "Value": 0,
+              "Year": 7
+            },
+            {
+              "Value": 0,
+              "Year": 8
+            },
+            {
+              "Value": 0,
+              "Year": 9
+            },
+            {
+              "Value": 0,
+              "Year": 10
+            }
+          ],
+          "TypeOfReport": "StockAdjustments"
+        },
+        {
+          "$type": "Econometric.Schema.ScenarioModal.WorkSpaceReport, Econometric.Schema",
+          "RelativeYield": {
+            "Nutrients": [
+              {
+                "Name": "P",
+                "ListOfYears": [
+                  {
+                    "Value": 47.54,
+                    "Year": 1
+                  },
+                  {
+                    "Value": 47.3,
+                    "Year": 2
+                  },
+                  {
+                    "Value": 47.05,
+                    "Year": 3
+                  },
+                  {
+                    "Value": 46.81,
+                    "Year": 4
+                  },
+                  {
+                    "Value": 46.56,
+                    "Year": 5
+                  },
+                  {
+                    "Value": 46.33,
+                    "Year": 6
+                  },
+                  {
+                    "Value": 46.11,
+                    "Year": 7
+                  },
+                  {
+                    "Value": 45.89,
+                    "Year": 8
+                  },
+                  {
+                    "Value": 45.69,
+                    "Year": 9
+                  },
+                  {
+                    "Value": 45.5,
+                    "Year": 10
+                  }
+                ]
+              },
+              {
+                "Name": "K",
+                "ListOfYears": [
+                  {
+                    "Value": 49.95,
+                    "Year": 1
+                  },
+                  {
+                    "Value": 49.88,
+                    "Year": 2
+                  },
+                  {
+                    "Value": 49.75,
+                    "Year": 3
+                  },
+                  {
+                    "Value": 49.58,
+                    "Year": 4
+                  },
+                  {
+                    "Value": 49.41,
+                    "Year": 5
+                  },
+                  {
+                    "Value": 49.27,
+                    "Year": 6
+                  },
+                  {
+                    "Value": 49.17,
+                    "Year": 7
+                  },
+                  {
+                    "Value": 49.11,
+                    "Year": 8
+                  },
+                  {
+                    "Value": 49.09,
+                    "Year": 9
+                  },
+                  {
+                    "Value": 49.08,
+                    "Year": 10
+                  }
+                ]
+              },
+              {
+                "Name": "S",
+                "ListOfYears": [
+                  {
+                    "Value": 48.78,
+                    "Year": 1
+                  },
+                  {
+                    "Value": 49.52,
+                    "Year": 2
+                  },
+                  {
+                    "Value": 49.7,
+                    "Year": 3
+                  },
+                  {
+                    "Value": 49.77,
+                    "Year": 4
+                  },
+                  {
+                    "Value": 49.79,
+                    "Year": 5
+                  },
+                  {
+                    "Value": 49.8,
+                    "Year": 6
+                  },
+                  {
+                    "Value": 49.81,
+                    "Year": 7
+                  },
+                  {
+                    "Value": 49.81,
+                    "Year": 8
+                  },
+                  {
+                    "Value": 49.81,
+                    "Year": 9
+                  },
+                  {
+                    "Value": 49.81,
+                    "Year": 10
+                  }
+                ]
+              },
+              {
+                "Name": "Ca",
+                "ListOfYears": [
+                  {
+                    "Value": 50,
+                    "Year": 1
+                  },
+                  {
+                    "Value": 50,
+                    "Year": 2
+                  },
+                  {
+                    "Value": 50,
+                    "Year": 3
+                  },
+                  {
+                    "Value": 50,
+                    "Year": 4
+                  },
+                  {
+                    "Value": 50,
+                    "Year": 5
+                  },
+                  {
+                    "Value": 50,
+                    "Year": 6
+                  },
+                  {
+                    "Value": 50,
+                    "Year": 7
+                  },
+                  {
+                    "Value": 50,
+                    "Year": 8
+                  },
+                  {
+                    "Value": 50,
+                    "Year": 9
+                  },
+                  {
+                    "Value": 50,
+                    "Year": 10
+                  }
+                ]
+              }
+            ],
+            "TypeOfReport": "RelativeYield"
+          },
+          "OlsenP": {
+            "ListOfYears": [
+              {
+                "Value": 15.35,
+                "Year": 1
+              },
+              {
+                "Value": 14.74,
+                "Year": 2
+              },
+              {
+                "Value": 14.18,
+                "Year": 3
+              },
+              {
+                "Value": 13.67,
+                "Year": 4
+              },
+              {
+                "Value": 13.22,
+                "Year": 5
+              },
+              {
+                "Value": 12.82,
+                "Year": 6
+              },
+              {
+                "Value": 12.46,
+                "Year": 7
+              },
+              {
+                "Value": 12.14,
+                "Year": 8
+              },
+              {
+                "Value": 11.85,
+                "Year": 9
+              },
+              {
+                "Value": 11.59,
+                "Year": 10
+              }
+            ],
+            "TypeOfReport": "OlsenP"
+          },
+          "QuickTestK": {
+            "ListOfYears": [
+              {
+                "Value": 8.43,
+                "Year": 1
+              },
+              {
+                "Value": 7.17,
+                "Year": 2
+              },
+              {
+                "Value": 6.25,
+                "Year": 3
+              },
+              {
+                "Value": 5.64,
+                "Year": 4
+              },
+              {
+                "Value": 5.25,
+                "Year": 5
+              },
+              {
+                "Value": 5.03,
+                "Year": 6
+              },
+              {
+                "Value": 4.91,
+                "Year": 7
+              },
+              {
+                "Value": 4.86,
+                "Year": 8
+              },
+              {
+                "Value": 4.85,
+                "Year": 9
+              },
+              {
+                "Value": 4.85,
+                "Year": 10
+              }
+            ],
+            "TypeOfReport": "Soil"
+          },
+          "QuickCa": {
+            "ListOfYears": [
+              {
+                "Value": 6,
+                "Year": 1
+              },
+              {
+                "Value": 0,
+                "Year": 2
+              },
+              {
+                "Value": 0,
+                "Year": 3
+              },
+              {
+                "Value": 0,
+                "Year": 4
+              },
+              {
+                "Value": 0,
+                "Year": 5
+              },
+              {
+                "Value": 0,
+                "Year": 6
+              },
+              {
+                "Value": 0,
+                "Year": 7
+              },
+              {
+                "Value": 0,
+                "Year": 8
+              },
+              {
+                "Value": 0,
+                "Year": 9
+              },
+              {
+                "Value": 0,
+                "Year": 10
+              }
+            ],
+            "TypeOfReport": "Soil"
+          },
+          "TypeOfReport": "WorkSpace"
+        },
+        {
+          "$type": "Econometric.Schema.ScenarioModal.YearValueReport, Econometric.Schema",
+          "ListOfYears": [
+            {
+              "Value": 1203.9000000000005,
+              "Year": 1
+            },
+            {
+              "Value": 2797.390000000003,
+              "Year": 2
+            },
+            {
+              "Value": 4768.140000000003,
+              "Year": 3
+            },
+            {
+              "Value": 7115.760000000002,
+              "Year": 4
+            },
+            {
+              "Value": 9771.490000000005,
+              "Year": 5
+            },
+            {
+              "Value": 12682.360000000008,
+              "Year": 6
+            },
+            {
+              "Value": 15837.960000000014,
+              "Year": 7
+            },
+            {
+              "Value": 19248.820000000014,
+              "Year": 8
+            },
+            {
+              "Value": 22928.500000000015,
+              "Year": 9
+            },
+            {
+              "Value": 26885.750000000015,
+              "Year": 10
+            }
+          ],
+          "TypeOfReport": "Npv"
+        },
+        {
+          "$type": "Econometric.Schema.ScenarioModal.YearValueReport, Econometric.Schema",
+          "ListOfYears": [
+            {
+              "Value": 705.6460897550545,
+              "Year": 2
+            },
+            {
+              "Value": 723.7316731656263,
+              "Year": 3
+            },
+            {
+              "Value": 727.7155855896883,
+              "Year": 4
+            },
+            {
+              "Value": 728.3901211101725,
+              "Year": 5
+            },
+            {
+              "Value": 728.4916461147316,
+              "Year": 6
+            },
+            {
+              "Value": 728.5062584880246,
+              "Year": 7
+            },
+            {
+              "Value": 728.5083199837501,
+              "Year": 8
+            },
+            {
+              "Value": 728.5086066787832,
+              "Year": 9
+            },
+            {
+              "Value": 728.5086460030889,
+              "Year": 10
+            }
+          ],
+          "TypeOfReport": "Irr"
+        },
+        {
+          "$type": "Econometric.Schema.ScenarioModal.YearValueReport, Econometric.Schema",
+          "ListOfYears": [
+            {
+              "Value": 8355.11,
+              "Year": 1
+            },
+            {
+              "Value": 8430.050000000001,
+              "Year": 2
+            },
+            {
+              "Value": 8393.84,
+              "Year": 3
+            },
+            {
+              "Value": 8330.300000000001,
+              "Year": 4
+            },
+            {
+              "Value": 8260.880000000001,
+              "Year": 5
+            },
+            {
+              "Value": 8196.01,
+              "Year": 6
+            },
+            {
+              "Value": 8139.73,
+              "Year": 7
+            },
+            {
+              "Value": 8092,
+              "Year": 8
+            },
+            {
+              "Value": 8051.200000000001,
+              "Year": 9
+            },
+            {
+              "Value": 8015.610000000001,
+              "Year": 10
+            }
+          ],
+          "TypeOfReport": "GrossMargin"
+        }
+      ]
+    }
+  ],
+  "OptimumParams": {
+    "Constraint": 0,
+    "ElementalMin": 0,
+    "ElementalRatio": 0,
+    "MaxValues": [
+      {
+        "Value": 120,
+        "Nutrient": "P"
+      },
+      {
+        "Value": 120,
+        "Nutrient": "K"
+      },
+      {
+        "Value": 120,
+        "Nutrient": "S"
+      },
+      {
+        "Value": 0,
+        "Nutrient": "Rpr"
+      },
+      {
+        "Value": 10,
+        "Nutrient": "Ca"
+      }
+    ],
+    "PScenario": "None"
+  },
+  "Reports": [
+    {
+      "$type": "Econometric.Schema.ScenarioModal.YearValueReport, Econometric.Schema",
+      "ListOfYears": [
+        {
+          "Value": 7554.52,
+          "Year": 1
+        },
+        {
+          "Value": 7344.24,
+          "Year": 2
+        },
+        {
+          "Value": 7110.8,
+          "Year": 3
+        },
+        {
+          "Value": 6884.49,
+          "Year": 4
+        },
+        {
+          "Value": 6668.77,
+          "Year": 5
+        },
+        {
+          "Value": 6462.15,
+          "Year": 6
+        },
+        {
+          "Value": 6261.25,
+          "Year": 7
+        },
+        {
+          "Value": 6063.35,
+          "Year": 8
+        },
+        {
+          "Value": 5867.69,
+          "Year": 9
+        },
+        {
+          "Value": 5675.47,
+          "Year": 10
+        }
+      ],
+      "TypeOfReport": "GrossReturns"
+    },
+    {
+      "$type": "Econometric.Schema.ScenarioModal.NutrientReport, Econometric.Schema",
+      "Nutrients": [
+        {
+          "Name": "P",
+          "ListOfYears": [
+            {
+              "Value": 13.1,
+              "Year": 1
+            },
+            {
+              "Value": 13.1,
+              "Year": 2
+            },
+            {
+              "Value": 13.1,
+              "Year": 3
+            },
+            {
+              "Value": 13.1,
+              "Year": 4
+            },
+            {
+              "Value": 13.1,
+              "Year": 5
+            },
+            {
+              "Value": 13.1,
+              "Year": 6
+            },
+            {
+              "Value": 13.1,
+              "Year": 7
+            },
+            {
+              "Value": 13.1,
+              "Year": 8
+            },
+            {
+              "Value": 13.1,
+              "Year": 9
+            },
+            {
+              "Value": 13.1,
+              "Year": 10
+            }
+          ]
+        },
+        {
+          "Name": "K",
+          "ListOfYears": [
+            {
+              "Value": 24.46,
+              "Year": 1
+            },
+            {
+              "Value": 24.46,
+              "Year": 2
+            },
+            {
+              "Value": 24.46,
+              "Year": 3
+            },
+            {
+              "Value": 24.46,
+              "Year": 4
+            },
+            {
+              "Value": 24.46,
+              "Year": 5
+            },
+            {
+              "Value": 24.46,
+              "Year": 6
+            },
+            {
+              "Value": 24.46,
+              "Year": 7
+            },
+            {
+              "Value": 24.46,
+              "Year": 8
+            },
+            {
+              "Value": 24.46,
+              "Year": 9
+            },
+            {
+              "Value": 24.46,
+              "Year": 10
+            }
+          ]
+        },
+        {
+          "Name": "Rpr",
+          "ListOfYears": [
+            {
+              "Value": 0,
+              "Year": 1
+            },
+            {
+              "Value": 0,
+              "Year": 2
+            },
+            {
+              "Value": 0,
+              "Year": 3
+            },
+            {
+              "Value": 0,
+              "Year": 4
+            },
+            {
+              "Value": 0,
+              "Year": 5
+            },
+            {
+              "Value": 0,
+              "Year": 6
+            },
+            {
+              "Value": 0,
+              "Year": 7
+            },
+            {
+              "Value": 0,
+              "Year": 8
+            },
+            {
+              "Value": 0,
+              "Year": 9
+            },
+            {
+              "Value": 0,
+              "Year": 10
+            }
+          ]
+        },
+        {
+          "Name": "S",
+          "ListOfYears": [
+            {
+              "Value": 14.27,
+              "Year": 1
+            },
+            {
+              "Value": 14.27,
+              "Year": 2
+            },
+            {
+              "Value": 14.27,
+              "Year": 3
+            },
+            {
+              "Value": 14.27,
+              "Year": 4
+            },
+            {
+              "Value": 14.27,
+              "Year": 5
+            },
+            {
+              "Value": 14.27,
+              "Year": 6
+            },
+            {
+              "Value": 14.27,
+              "Year": 7
+            },
+            {
+              "Value": 14.27,
+              "Year": 8
+            },
+            {
+              "Value": 14.27,
+              "Year": 9
+            },
+            {
+              "Value": 14.27,
+              "Year": 10
+            }
+          ]
+        },
+        {
+          "Name": "ElementalS",
+          "ListOfYears": [
+            {
+              "Value": 0,
+              "Year": 1
+            },
+            {
+              "Value": 0,
+              "Year": 2
+            },
+            {
+              "Value": 0,
+              "Year": 3
+            },
+            {
+              "Value": 0,
+              "Year": 4
+            },
+            {
+              "Value": 0,
+              "Year": 5
+            },
+            {
+              "Value": 0,
+              "Year": 6
+            },
+            {
+              "Value": 0,
+              "Year": 7
+            },
+            {
+              "Value": 0,
+              "Year": 8
+            },
+            {
+              "Value": 0,
+              "Year": 9
+            },
+            {
+              "Value": 0,
+              "Year": 10
+            }
+          ]
+        },
+        {
+          "Name": "Ca",
+          "ListOfYears": [
+            {
+              "Value": 0,
+              "Year": 1
+            },
+            {
+              "Value": 0,
+              "Year": 2
+            },
+            {
+              "Value": 0,
+              "Year": 3
+            },
+            {
+              "Value": 0,
+              "Year": 4
+            },
+            {
+              "Value": 0,
+              "Year": 5
+            },
+            {
+              "Value": 0,
+              "Year": 6
+            },
+            {
+              "Value": 0,
+              "Year": 7
+            },
+            {
+              "Value": 0,
+              "Year": 8
+            },
+            {
+              "Value": 0,
+              "Year": 9
+            },
+            {
+              "Value": 0,
+              "Year": 10
+            }
+          ]
+        }
+      ],
+      "TypeOfReport": "Applied"
+    },
+    {
+      "$type": "Econometric.Schema.ScenarioModal.NutrientReport, Econometric.Schema",
+      "Nutrients": [
+        {
+          "Name": "P",
+          "ListOfYears": [
+            {
+              "Value": 22.26,
+              "Year": 1
+            },
+            {
+              "Value": 22.26,
+              "Year": 2
+            },
+            {
+              "Value": 22.26,
+              "Year": 3
+            },
+            {
+              "Value": 22.26,
+              "Year": 4
+            },
+            {
+              "Value": 22.26,
+              "Year": 5
+            },
+            {
+              "Value": 22.26,
+              "Year": 6
+            },
+            {
+              "Value": 22.26,
+              "Year": 7
+            },
+            {
+              "Value": 22.26,
+              "Year": 8
+            },
+            {
+              "Value": 22.26,
+              "Year": 9
+            },
+            {
+              "Value": 22.26,
+              "Year": 10
+            }
+          ]
+        },
+        {
+          "Name": "K",
+          "ListOfYears": [
+            {
+              "Value": 63.6,
+              "Year": 1
+            },
+            {
+              "Value": 63.6,
+              "Year": 2
+            },
+            {
+              "Value": 63.6,
+              "Year": 3
+            },
+            {
+              "Value": 63.6,
+              "Year": 4
+            },
+            {
+              "Value": 63.6,
+              "Year": 5
+            },
+            {
+              "Value": 63.6,
+              "Year": 6
+            },
+            {
+              "Value": 63.6,
+              "Year": 7
+            },
+            {
+              "Value": 63.6,
+              "Year": 8
+            },
+            {
+              "Value": 63.6,
+              "Year": 9
+            },
+            {
+              "Value": 63.6,
+              "Year": 10
+            }
+          ]
+        },
+        {
+          "Name": "Rpr",
+          "ListOfYears": [
+            {
+              "Value": 0,
+              "Year": 1
+            },
+            {
+              "Value": 0,
+              "Year": 2
+            },
+            {
+              "Value": 0,
+              "Year": 3
+            },
+            {
+              "Value": 0,
+              "Year": 4
+            },
+            {
+              "Value": 0,
+              "Year": 5
+            },
+            {
+              "Value": 0,
+              "Year": 6
+            },
+            {
+              "Value": 0,
+              "Year": 7
+            },
+            {
+              "Value": 0,
+              "Year": 8
+            },
+            {
+              "Value": 0,
+              "Year": 9
+            },
+            {
+              "Value": 0,
+              "Year": 10
+            }
+          ]
+        },
+        {
+          "Name": "S",
+          "ListOfYears": [
+            {
+              "Value": 7.99,
+              "Year": 1
+            },
+            {
+              "Value": 7.99,
+              "Year": 2
+            },
+            {
+              "Value": 7.99,
+              "Year": 3
+            },
+            {
+              "Value": 7.99,
+              "Year": 4
+            },
+            {
+              "Value": 7.99,
+              "Year": 5
+            },
+            {
+              "Value": 7.99,
+              "Year": 6
+            },
+            {
+              "Value": 7.99,
+              "Year": 7
+            },
+            {
+              "Value": 7.99,
+              "Year": 8
+            },
+            {
+              "Value": 7.99,
+              "Year": 9
+            },
+            {
+              "Value": 7.99,
+              "Year": 10
+            }
+          ]
+        },
+        {
+          "Name": "Ca",
+          "ListOfYears": [
+            {
+              "Value": 0,
+              "Year": 1
+            },
+            {
+              "Value": 0,
+              "Year": 2
+            },
+            {
+              "Value": 0,
+              "Year": 3
+            },
+            {
+              "Value": 0,
+              "Year": 4
+            },
+            {
+              "Value": 0,
+              "Year": 5
+            },
+            {
+              "Value": 0,
+              "Year": 6
+            },
+            {
+              "Value": 0,
+              "Year": 7
+            },
+            {
+              "Value": 0,
+              "Year": 8
+            },
+            {
+              "Value": 0,
+              "Year": 9
+            },
+            {
+              "Value": 0,
+              "Year": 10
+            }
+          ]
+        }
+      ],
+      "TypeOfReport": "Costs"
+    },
+    {
+      "$type": "Econometric.Schema.ScenarioModal.YearValueReport, Econometric.Schema",
+      "ListOfYears": [
+        {
+          "Value": 1098.54,
+          "Year": 1
+        },
+        {
+          "Value": 1060.09,
+          "Year": 2
+        },
+        {
+          "Value": 1020.41,
+          "Year": 3
+        },
+        {
+          "Value": 982.64,
+          "Year": 4
+        },
+        {
+          "Value": 946.87,
+          "Year": 5
+        },
+        {
+          "Value": 912.57,
+          "Year": 6
+        },
+        {
+          "Value": 879.04,
+          "Year": 7
+        },
+        {
+          "Value": 845.82,
+          "Year": 8
+        },
+        {
+          "Value": 812.82,
+          "Year": 9
+        },
+        {
+          "Value": 780.29,
+          "Year": 10
+        }
+      ],
+      "TypeOfReport": "MilkProduction"
+    },
+    {
+      "$type": "Econometric.Schema.ScenarioModal.YearValueReport, Econometric.Schema",
+      "ListOfYears": [
+        {
+          "Value": 0.89,
+          "Year": 1
+        },
+        {
+          "Value": 0.87,
+          "Year": 2
+        },
+        {
+          "Value": 0.84,
+          "Year": 3
+        },
+        {
+          "Value": 0.81,
+          "Year": 4
+        },
+        {
+          "Value": 0.78,
+          "Year": 5
+        },
+        {
+          "Value": 0.76,
+          "Year": 6
+        },
+        {
+          "Value": 0.73,
+          "Year": 7
+        },
+        {
+          "Value": 0.71,
+          "Year": 8
+        },
+        {
+          "Value": 0.68,
+          "Year": 9
+        },
+        {
+          "Value": 0.66,
+          "Year": 10
+        }
+      ],
+      "TypeOfReport": "RelativeYield"
+    },
+    {
+      "$type": "Econometric.Schema.ScenarioModal.NutrientReport, Econometric.Schema",
+      "Nutrients": [
+        {
+          "Name": "P",
+          "ListOfYears": [
+            {
+              "Value": 260.3,
+              "Year": 1
+            },
+            {
+              "Value": 239.31,
+              "Year": 2
+            },
+            {
+              "Value": 220.41,
+              "Year": 3
+            },
+            {
+              "Value": 203.45,
+              "Year": 4
+            },
+            {
+              "Value": 188.26,
+              "Year": 5
+            },
+            {
+              "Value": 174.7,
+              "Year": 6
+            },
+            {
+              "Value": 162.64,
+              "Year": 7
+            },
+            {
+              "Value": 151.95,
+              "Year": 8
+            },
+            {
+              "Value": 142.54,
+              "Year": 9
+            },
+            {
+              "Value": 134.3,
+              "Year": 10
+            }
+          ]
+        },
+        {
+          "Name": "K",
+          "ListOfYears": [
+            {
+              "Value": 8.38,
+              "Year": 1
+            },
+            {
+              "Value": 7.21,
+              "Year": 2
+            },
+            {
+              "Value": 6.44,
+              "Year": 3
+            },
+            {
+              "Value": 5.98,
+              "Year": 4
+            },
+            {
+              "Value": 5.74,
+              "Year": 5
+            },
+            {
+              "Value": 5.66,
+              "Year": 6
+            },
+            {
+              "Value": 5.68,
+              "Year": 7
+            },
+            {
+              "Value": 5.77,
+              "Year": 8
+            },
+            {
+              "Value": 5.9,
+              "Year": 9
+            },
+            {
+              "Value": 6.07,
+              "Year": 10
+            }
+          ]
+        },
+        {
+          "Name": "Rpr",
+          "ListOfYears": [
+            {
+              "Value": 0,
+              "Year": 1
+            },
+            {
+              "Value": 0,
+              "Year": 2
+            },
+            {
+              "Value": 0,
+              "Year": 3
+            },
+            {
+              "Value": 0,
+              "Year": 4
+            },
+            {
+              "Value": 0,
+              "Year": 5
+            },
+            {
+              "Value": 0,
+              "Year": 6
+            },
+            {
+              "Value": 0,
+              "Year": 7
+            },
+            {
+              "Value": 0,
+              "Year": 8
+            },
+            {
+              "Value": 0,
+              "Year": 9
+            },
+            {
+              "Value": 0,
+              "Year": 10
+            }
+          ]
+        },
+        {
+          "Name": "ElementalS",
+          "ListOfYears": [
+            {
+              "Value": 0,
+              "Year": 1
+            },
+            {
+              "Value": 0,
+              "Year": 2
+            },
+            {
+              "Value": 0,
+              "Year": 3
+            },
+            {
+              "Value": 0,
+              "Year": 4
+            },
+            {
+              "Value": 0,
+              "Year": 5
+            },
+            {
+              "Value": 0,
+              "Year": 6
+            },
+            {
+              "Value": 0,
+              "Year": 7
+            },
+            {
+              "Value": 0,
+              "Year": 8
+            },
+            {
+              "Value": 0,
+              "Year": 9
+            },
+            {
+              "Value": 0,
+              "Year": 10
+            }
+          ]
+        },
+        {
+          "Name": "Ca",
+          "ListOfYears": [
+            {
+              "Value": 5.88,
+              "Year": 1
+            },
+            {
+              "Value": 0,
+              "Year": 2
+            },
+            {
+              "Value": 0,
+              "Year": 3
+            },
+            {
+              "Value": 0,
+              "Year": 4
+            },
+            {
+              "Value": 0,
+              "Year": 5
+            },
+            {
+              "Value": 0,
+              "Year": 6
+            },
+            {
+              "Value": 0,
+              "Year": 7
+            },
+            {
+              "Value": 0,
+              "Year": 8
+            },
+            {
+              "Value": 0,
+              "Year": 9
+            },
+            {
+              "Value": 0,
+              "Year": 10
+            }
+          ]
+        }
+      ],
+      "TypeOfReport": "Soil"
+    },
+    {
+      "$type": "Econometric.Schema.ScenarioModal.NutrientReport, Econometric.Schema",
+      "Nutrients": [
+        {
+          "Name": "P",
+          "ListOfYears": [
+            {
+              "Value": 0,
+              "Year": 1
+            },
+            {
+              "Value": 0,
+              "Year": 2
+            },
+            {
+              "Value": 0,
+              "Year": 3
+            },
+            {
+              "Value": 0,
+              "Year": 4
+            },
+            {
+              "Value": 0,
+              "Year": 5
+            },
+            {
+              "Value": 0,
+              "Year": 6
+            },
+            {
+              "Value": 0,
+              "Year": 7
+            },
+            {
+              "Value": 0,
+              "Year": 8
+            },
+            {
+              "Value": 0,
+              "Year": 9
+            },
+            {
+              "Value": 0,
+              "Year": 10
+            }
+          ]
+        },
+        {
+          "Name": "K",
+          "ListOfYears": [
+            {
+              "Value": 0,
+              "Year": 1
+            },
+            {
+              "Value": 0,
+              "Year": 2
+            },
+            {
+              "Value": 0,
+              "Year": 3
+            },
+            {
+              "Value": 0,
+              "Year": 4
+            },
+            {
+              "Value": 0,
+              "Year": 5
+            },
+            {
+              "Value": 0,
+              "Year": 6
+            },
+            {
+              "Value": 0,
+              "Year": 7
+            },
+            {
+              "Value": 0,
+              "Year": 8
+            },
+            {
+              "Value": 0,
+              "Year": 9
+            },
+            {
+              "Value": 0,
+              "Year": 10
+            }
+          ]
+        },
+        {
+          "Name": "S",
+          "ListOfYears": [
+            {
+              "Value": 0,
+              "Year": 1
+            },
+            {
+              "Value": 0,
+              "Year": 2
+            },
+            {
+              "Value": 0,
+              "Year": 3
+            },
+            {
+              "Value": 0,
+              "Year": 4
+            },
+            {
+              "Value": 0,
+              "Year": 5
+            },
+            {
+              "Value": 0,
+              "Year": 6
+            },
+            {
+              "Value": 0,
+              "Year": 7
+            },
+            {
+              "Value": 0,
+              "Year": 8
+            },
+            {
+              "Value": 0,
+              "Year": 9
+            },
+            {
+              "Value": 0,
+              "Year": 10
+            }
+          ]
+        },
+        {
+          "Name": "Ca",
+          "ListOfYears": [
+            {
+              "Value": 0,
+              "Year": 1
+            },
+            {
+              "Value": 0,
+              "Year": 2
+            },
+            {
+              "Value": 0,
+              "Year": 3
+            },
+            {
+              "Value": 0,
+              "Year": 4
+            },
+            {
+              "Value": 0,
+              "Year": 5
+            },
+            {
+              "Value": 0,
+              "Year": 6
+            },
+            {
+              "Value": 0,
+              "Year": 7
+            },
+            {
+              "Value": 0,
+              "Year": 8
+            },
+            {
+              "Value": 0,
+              "Year": 9
+            },
+            {
+              "Value": 0,
+              "Year": 10
+            }
+          ]
+        }
+      ],
+      "TypeOfReport": "Loss"
+    },
+    {
+      "$type": "Econometric.Schema.ScenarioModal.YearValueReport, Econometric.Schema",
+      "ListOfYears": [
+        {
+          "Value": 14.45,
+          "Year": 1
+        },
+        {
+          "Value": 13.07,
+          "Year": 2
+        },
+        {
+          "Value": 11.85,
+          "Year": 3
+        },
+        {
+          "Value": 10.79,
+          "Year": 4
+        },
+        {
+          "Value": 9.85,
+          "Year": 5
+        },
+        {
+          "Value": 9.03,
+          "Year": 6
+        },
+        {
+          "Value": 8.32,
+          "Year": 7
+        },
+        {
+          "Value": 7.7,
+          "Year": 8
+        },
+        {
+          "Value": 7.17,
+          "Year": 9
+        },
+        {
+          "Value": 6.71,
+          "Year": 10
+        }
+      ],
+      "TypeOfReport": "OlsenP"
+    },
+    {
+      "$type": "Econometric.Schema.ScenarioModal.NutrientReport, Econometric.Schema",
+      "Nutrients": [
+        {
+          "Name": "P",
+          "ListOfYears": [
+            {
+              "Value": 0,
+              "Year": 1
+            },
+            {
+              "Value": 0,
+              "Year": 2
+            },
+            {
+              "Value": 0,
+              "Year": 3
+            },
+            {
+              "Value": 0,
+              "Year": 4
+            },
+            {
+              "Value": 0,
+              "Year": 5
+            },
+            {
+              "Value": 0,
+              "Year": 6
+            },
+            {
+              "Value": 0,
+              "Year": 7
+            },
+            {
+              "Value": 0,
+              "Year": 8
+            },
+            {
+              "Value": 0,
+              "Year": 9
+            },
+            {
+              "Value": 0,
+              "Year": 10
+            }
+          ]
+        },
+        {
+          "Name": "K",
+          "ListOfYears": [
+            {
+              "Value": 0,
+              "Year": 1
+            },
+            {
+              "Value": 0,
+              "Year": 2
+            },
+            {
+              "Value": 0,
+              "Year": 3
+            },
+            {
+              "Value": 0,
+              "Year": 4
+            },
+            {
+              "Value": 0,
+              "Year": 5
+            },
+            {
+              "Value": 0,
+              "Year": 6
+            },
+            {
+              "Value": 0,
+              "Year": 7
+            },
+            {
+              "Value": 0,
+              "Year": 8
+            },
+            {
+              "Value": 0,
+              "Year": 9
+            },
+            {
+              "Value": 0,
+              "Year": 10
+            }
+          ]
+        },
+        {
+          "Name": "S",
+          "ListOfYears": [
+            {
+              "Value": 0,
+              "Year": 1
+            },
+            {
+              "Value": 0,
+              "Year": 2
+            },
+            {
+              "Value": 0,
+              "Year": 3
+            },
+            {
+              "Value": 0,
+              "Year": 4
+            },
+            {
+              "Value": 0,
+              "Year": 5
+            },
+            {
+              "Value": 0,
+              "Year": 6
+            },
+            {
+              "Value": 0,
+              "Year": 7
+            },
+            {
+              "Value": 0,
+              "Year": 8
+            },
+            {
+              "Value": 0,
+              "Year": 9
+            },
+            {
+              "Value": 0,
+              "Year": 10
+            }
+          ]
+        },
+        {
+          "Name": "Ca",
+          "ListOfYears": [
+            {
+              "Value": 0,
+              "Year": 1
+            },
+            {
+              "Value": 0,
+              "Year": 2
+            },
+            {
+              "Value": 0,
+              "Year": 3
+            },
+            {
+              "Value": 0,
+              "Year": 4
+            },
+            {
+              "Value": 0,
+              "Year": 5
+            },
+            {
+              "Value": 0,
+              "Year": 6
+            },
+            {
+              "Value": 0,
+              "Year": 7
+            },
+            {
+              "Value": 0,
+              "Year": 8
+            },
+            {
+              "Value": 0,
+              "Year": 9
+            },
+            {
+              "Value": 0,
+              "Year": 10
+            }
+          ]
+        }
+      ],
+      "TypeOfReport": "Inputs"
+    },
+    {
+      "$type": "Econometric.Schema.ScenarioModal.YearValueReport, Econometric.Schema",
+      "ListOfYears": [
+        {
+          "Value": 93.85,
+          "Year": 1
+        },
+        {
+          "Value": 93.85,
+          "Year": 2
+        },
+        {
+          "Value": 93.85,
+          "Year": 3
+        },
+        {
+          "Value": 93.85,
+          "Year": 4
+        },
+        {
+          "Value": 93.85,
+          "Year": 5
+        },
+        {
+          "Value": 93.85,
+          "Year": 6
+        },
+        {
+          "Value": 93.85,
+          "Year": 7
+        },
+        {
+          "Value": 93.85,
+          "Year": 8
+        },
+        {
+          "Value": 93.85,
+          "Year": 9
+        },
+        {
+          "Value": 93.85,
+          "Year": 10
+        }
+      ],
+      "TypeOfReport": "Fertiliser"
+    },
+    {
+      "$type": "Econometric.Schema.ScenarioModal.YearValueReport, Econometric.Schema",
+      "ListOfYears": [
+        {
+          "Value": 31.68,
+          "Year": 1
+        },
+        {
+          "Value": 30.8,
+          "Year": 2
+        },
+        {
+          "Value": 29.82,
+          "Year": 3
+        },
+        {
+          "Value": 28.87,
+          "Year": 4
+        },
+        {
+          "Value": 27.97,
+          "Year": 5
+        },
+        {
+          "Value": 27.1,
+          "Year": 6
+        },
+        {
+          "Value": 26.26,
+          "Year": 7
+        },
+        {
+          "Value": 25.43,
+          "Year": 8
+        },
+        {
+          "Value": 24.61,
+          "Year": 9
+        },
+        {
+          "Value": 23.8,
+          "Year": 10
+        }
+      ],
+      "TypeOfReport": "StockingRate"
+    },
+    {
+      "$type": "Econometric.Schema.ScenarioModal.YearValueReport, Econometric.Schema",
+      "ListOfYears": [
+        {
+          "Value": 0,
+          "Year": 1
+        },
+        {
+          "Value": 0,
+          "Year": 2
+        },
+        {
+          "Value": 0,
+          "Year": 3
+        },
+        {
+          "Value": 0,
+          "Year": 4
+        },
+        {
+          "Value": 0,
+          "Year": 5
+        },
+        {
+          "Value": 0,
+          "Year": 6
+        },
+        {
+          "Value": 0,
+          "Year": 7
+        },
+        {
+          "Value": 0,
+          "Year": 8
+        },
+        {
+          "Value": 0,
+          "Year": 9
+        },
+        {
+          "Value": 0,
+          "Year": 10
+        }
+      ],
+      "TypeOfReport": "StockAdjustments"
+    },
+    {
+      "$type": "Econometric.Schema.ScenarioModal.WorkSpaceReport, Econometric.Schema",
+      "RelativeYield": {
+        "Nutrients": [
+          {
+            "Name": "P",
+            "ListOfYears": [
+              {
+                "Value": 0.94,
+                "Year": 1
+              },
+              {
+                "Value": 0.93,
+                "Year": 2
+              },
+              {
+                "Value": 0.91,
+                "Year": 3
+              },
+              {
+                "Value": 0.89,
+                "Year": 4
+              },
+              {
+                "Value": 0.86,
+                "Year": 5
+              },
+              {
+                "Value": 0.84,
+                "Year": 6
+              },
+              {
+                "Value": 0.81,
+                "Year": 7
+              },
+              {
+                "Value": 0.78,
+                "Year": 8
+              },
+              {
+                "Value": 0.75,
+                "Year": 9
+              },
+              {
+                "Value": 0.72,
+                "Year": 10
+              }
+            ]
+          },
+          {
+            "Name": "K",
+            "ListOfYears": [
+              {
+                "Value": 1,
+                "Year": 1
+              },
+              {
+                "Value": 0.99,
+                "Year": 2
+              },
+              {
+                "Value": 0.99,
+                "Year": 3
+              },
+              {
+                "Value": 0.98,
+                "Year": 4
+              },
+              {
+                "Value": 0.98,
+                "Year": 5
+              },
+              {
+                "Value": 0.98,
+                "Year": 6
+              },
+              {
+                "Value": 0.97,
+                "Year": 7
+              },
+              {
+                "Value": 0.98,
+                "Year": 8
+              },
+              {
+                "Value": 0.98,
+                "Year": 9
+              },
+              {
+                "Value": 0.98,
+                "Year": 10
+              }
+            ]
+          },
+          {
+            "Name": "S",
+            "ListOfYears": [
+              {
+                "Value": 0.95,
+                "Year": 1
+              },
+              {
+                "Value": 0.94,
+                "Year": 2
+              },
+              {
+                "Value": 0.93,
+                "Year": 3
+              },
+              {
+                "Value": 0.93,
+                "Year": 4
+              },
+              {
+                "Value": 0.92,
+                "Year": 5
+              },
+              {
+                "Value": 0.92,
+                "Year": 6
+              },
+              {
+                "Value": 0.92,
+                "Year": 7
+              },
+              {
+                "Value": 0.92,
+                "Year": 8
+              },
+              {
+                "Value": 0.92,
+                "Year": 9
+              },
+              {
+                "Value": 0.92,
+                "Year": 10
+              }
+            ]
+          },
+          {
+            "Name": "Ca",
+            "ListOfYears": [
+              {
+                "Value": 1,
+                "Year": 1
+              },
+              {
+                "Value": 1,
+                "Year": 2
+              },
+              {
+                "Value": 1,
+                "Year": 3
+              },
+              {
+                "Value": 1,
+                "Year": 4
+              },
+              {
+                "Value": 1,
+                "Year": 5
+              },
+              {
+                "Value": 1,
+                "Year": 6
+              },
+              {
+                "Value": 1,
+                "Year": 7
+              },
+              {
+                "Value": 1,
+                "Year": 8
+              },
+              {
+                "Value": 1,
+                "Year": 9
+              },
+              {
+                "Value": 1,
+                "Year": 10
+              }
+            ]
+          }
+        ],
+        "TypeOfReport": "RelativeYield"
+      },
+      "OlsenP": {
+        "ListOfYears": [
+          {
+            "Value": 14.45,
+            "Year": 1
+          },
+          {
+            "Value": 13.07,
+            "Year": 2
+          },
+          {
+            "Value": 11.85,
+            "Year": 3
+          },
+          {
+            "Value": 10.79,
+            "Year": 4
+          },
+          {
+            "Value": 9.85,
+            "Year": 5
+          },
+          {
+            "Value": 9.03,
+            "Year": 6
+          },
+          {
+            "Value": 8.32,
+            "Year": 7
+          },
+          {
+            "Value": 7.7,
+            "Year": 8
+          },
+          {
+            "Value": 7.17,
+            "Year": 9
+          },
+          {
+            "Value": 6.71,
+            "Year": 10
+          }
+        ],
+        "TypeOfReport": "OlsenP"
+      },
+      "QuickTestK": {
+        "ListOfYears": [
+          {
+            "Value": 8.38,
+            "Year": 1
+          },
+          {
+            "Value": 7.21,
+            "Year": 2
+          },
+          {
+            "Value": 6.44,
+            "Year": 3
+          },
+          {
+            "Value": 5.98,
+            "Year": 4
+          },
+          {
+            "Value": 5.74,
+            "Year": 5
+          },
+          {
+            "Value": 5.66,
+            "Year": 6
+          },
+          {
+            "Value": 5.68,
+            "Year": 7
+          },
+          {
+            "Value": 5.77,
+            "Year": 8
+          },
+          {
+            "Value": 5.9,
+            "Year": 9
+          },
+          {
+            "Value": 6.07,
+            "Year": 10
+          }
+        ],
+        "TypeOfReport": "Soil"
+      },
+      "QuickCa": {
+        "ListOfYears": [
+          {
+            "Value": 5.88,
+            "Year": 1
+          },
+          {
+            "Value": 0,
+            "Year": 2
+          },
+          {
+            "Value": 0,
+            "Year": 3
+          },
+          {
+            "Value": 0,
+            "Year": 4
+          },
+          {
+            "Value": 0,
+            "Year": 5
+          },
+          {
+            "Value": 0,
+            "Year": 6
+          },
+          {
+            "Value": 0,
+            "Year": 7
+          },
+          {
+            "Value": 0,
+            "Year": 8
+          },
+          {
+            "Value": 0,
+            "Year": 9
+          },
+          {
+            "Value": 0,
+            "Year": 10
+          }
+        ],
+        "TypeOfReport": "Soil"
+      },
+      "TypeOfReport": "WorkSpace"
+    },
+    {
+      "$type": "Econometric.Schema.ScenarioModal.YearValueReport, Econometric.Schema",
+      "ListOfYears": [
+        {
+          "Value": 520.5953846153852,
+          "Year": 1
+        },
+        {
+          "Value": 1265.4884615384622,
+          "Year": 2
+        },
+        {
+          "Value": 2209.6169230769246,
+          "Year": 3
+        },
+        {
+          "Value": 3329.8461538461556,
+          "Year": 4
+        },
+        {
+          "Value": 4585.557692307698,
+          "Year": 5
+        },
+        {
+          "Value": 5950.618461538468,
+          "Year": 6
+        },
+        {
+          "Value": 7419.9292307692385,
+          "Year": 7
+        },
+        {
+          "Value": 8998.235384615393,
+          "Year": 8
+        },
+        {
+          "Value": 10691.804615384623,
+          "Year": 9
+        },
+        {
+          "Value": 12504.802307692313,
+          "Year": 10
+        }
+      ],
+      "TypeOfReport": "Npv"
+    },
+    {
+      "$type": "Econometric.Schema.ScenarioModal.YearValueReport, Econometric.Schema",
+      "ListOfYears": [
+        {
+          "Value": 271.40234221348254,
+          "Year": 2
+        },
+        {
+          "Value": 278.35833583293316,
+          "Year": 3
+        },
+        {
+          "Value": 279.8906098421878,
+          "Year": 4
+        },
+        {
+          "Value": 280.1500465808356,
+          "Year": 5
+        },
+        {
+          "Value": 280.18909465951214,
+          "Year": 6
+        },
+        {
+          "Value": 280.1947148030864,
+          "Year": 7
+        },
+        {
+          "Value": 280.19550768605774,
+          "Year": 8
+        },
+        {
+          "Value": 280.19561795337813,
+          "Year": 9
+        },
+        {
+          "Value": 280.1956330781111,
+          "Year": 10
+        },
+        {
+          "Value": 0,
+          "Year": 11
+        }
+      ],
+      "TypeOfReport": "Irr"
+    },
+    {
+      "$type": "Econometric.Schema.ScenarioModal.YearValueReport, Econometric.Schema",
+      "ListOfYears": [
+        {
+          "Value": 7460.673076923077,
+          "Year": 1
+        },
+        {
+          "Value": 7250.388461538461,
+          "Year": 2
+        },
+        {
+          "Value": 7016.953846153846,
+          "Year": 3
+        },
+        {
+          "Value": 6790.638461538461,
+          "Year": 4
+        },
+        {
+          "Value": 6574.916923076925,
+          "Year": 5
+        },
+        {
+          "Value": 6368.299230769231,
+          "Year": 6
+        },
+        {
+          "Value": 6167.403846153846,
+          "Year": 7
+        },
+        {
+          "Value": 5969.495384615385,
+          "Year": 8
+        },
+        {
+          "Value": 5773.839999999999,
+          "Year": 9
+        },
+        {
+          "Value": 5581.622307692308,
+          "Year": 10
+        }
+      ],
+      "TypeOfReport": "GrossMargin"
+    }
+  ],
+  "ConstantAmounts": [
+    {
+      "Fertiliser": "0",
+      "Rate": 30,
+      "NutrientValues": [
+        {
+          "Value": 2.28,
+          "Nutrient": "P"
+        },
+        {
+          "Value": 2.25,
+          "Nutrient": "K"
+        },
+        {
+          "Value": 2.94,
+          "Nutrient": "S"
+        },
+        {
+          "Value": 0,
+          "Nutrient": "ElementalS"
+        },
+        {
+          "Value": 0,
+          "Nutrient": "Rpr"
+        },
+        {
+          "Value": 0,
+          "Nutrient": "Ca"
+        }
+      ]
+    },
+    {
+      "Fertiliser": "2",
+      "Rate": 400,
+      "NutrientValues": [
+        {
+          "Value": 30.4,
+          "Nutrient": "P"
+        },
+        {
+          "Value": 60,
+          "Nutrient": "K"
+        },
+        {
+          "Value": 32.4,
+          "Nutrient": "S"
+        },
+        {
+          "Value": 0,
+          "Nutrient": "ElementalS"
+        },
+        {
+          "Value": 0,
+          "Nutrient": "Rpr"
+        },
+        {
+          "Value": 0,
+          "Nutrient": "Ca"
+        }
+      ]
+    }
+  ]
+}
