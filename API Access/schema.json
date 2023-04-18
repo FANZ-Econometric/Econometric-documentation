@@ -1,0 +1,535 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "FarmEconomics": {
+      "type": "object",
+      "properties": {
+        "Reference": {
+          "description": "Your reference to the file",
+          "type": "string"
+        },
+        "Year": {
+          "description": "starting or current year",
+          "type": "integer"
+        },
+        "SRequired": {
+          "description": "Includes S in the scenarios",
+          "type": "boolean"
+        },
+        "KRequired": {
+          "description": "Includes K in the scenarios",
+          "type": "boolean"
+        },
+        "LimeRequired": {
+          "description": "Includes lime in the scenarios",
+          "type": "boolean"
+        },
+        "RprAvailable": {
+          "description": "Includes RPR in the scenarios",
+          "type": "boolean"
+        },
+        "DiscountRate": {
+          "description": "Discount rate for NPV and optimisation",
+          "type": "number"
+        },
+        "Region": {
+          "description": "For elemental S release rate",
+          "type": "string"
+        },
+        "Blocks": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "Reference": {
+                  "description": "Name of the block",
+                  "type": "string"
+                },
+                "BlockEconomics": {
+                  "type": "object",
+                  "properties": {
+                    "Area": {
+                      "description": "Area of the block in ha",
+                      "type": "number"
+                    },
+                    "IsDairy": {
+                      "description": "If there are dairy animals on the block = true. Milk/ha must be included if this is true",
+                      "type": "boolean"
+                    },
+                    "Rain": {
+                      "description": "Annual rainfall mm",
+                      "type": "integer"
+                    },
+                    "Irrigation": {
+                      "description": "Annual irrigation mm",
+                      "type": "number"
+                    },
+                    "Drainage": {
+                      "description": "Profile drainage class. Use default = -1, Free = 0, Intermediate = 1, Poor = 2.",
+                      "type": "integer"
+                    },
+                    "SoilInputs": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "object",
+                          "properties": {
+                            "SoilGroupDesc": {
+                              "description": "Use soil group or order, not both. Soil groups: Sedimentary, Volcanic, Pumice, Podzols, Sands, Peats.",
+                              "type": "string"
+                            },
+                            "SoilOrderDesc": {
+                              "description": "Use soil group or order, not both. Soil orders: Allophanic, Brown, Gley, Granular, Melanic, Organic, Oxidic, Pallic, Podzol, Pumice, Raw, Recent, Semiarid, Ultic.",
+                              "type": "string"
+                            },
+                            "Slope": {
+                              "description": "Topography: Flat, Rolling, Easy Hill, Steep Hill",
+                              "type": "string"
+                            },
+                            "SoilTest": {
+                              "type": "object",
+                              "properties": {
+                                "OlsenP": {
+                                  "description": "Olsen P soil test result.",
+                                  "type": "number"
+                                },
+                                "PESo": {
+                                  "description": "Organic S soil test result. 1 of 3 options, use PESo (Extractable Organic S), QTSO4 or TotalS.",
+                                  "type": "number"
+                                },
+                                "QTSO4": {
+                                  "description": "Quick test sulphate soil test result. 1 of 3 options, use PESo (Extractable Organic S), QTSO4 or TotalS. (This is used as a way to estimate Organic S and therefore must not be influenced by S fertiliser.)",
+                                  "type": "number"
+                                },
+                                "TotalS": {
+                                  "description": "Total S soil test result. 1 of 3 options, use PESo (Extractable Organic S), QTSO4 or TotalS.",
+                                  "type": "number"
+                                },
+                                "Qtk": {
+                                  "description": "Quick test K.",
+                                  "type": "number"
+                                },
+                                "Ph": {
+                                  "description": "Soil pH.",
+                                  "type": "number"
+                                },
+                                "QtMg": {
+                                  "description": "Quick test Mg soil test result. Used by RPR model.",
+                                  "type": "number"
+                                },
+                                "TbkReserveK": {
+                                  "description": "TBK test. One of 2 K options, units =  me/100g. If entered as 0 then the default is used.",
+                                  "type": "number"
+                                },
+                                "KReserveStatusOption": {
+                                  "description": "Use default = -1, High = 0, Medium = 1, Low = 2, Very Low = 3, Extremely Low = 4. If TbkReserveK is entered, this will not be used.",
+                                  "type": "integer"
+                                },
+                                "KLeaching": {
+                                  "description": "K leaching potential. If this equals 0, the default based on the soil and rainfall is used.",
+                                  "type": "number"
+                                }
+                              },
+                              "required": [
+                                "OlsenP"     
+                              ]
+                            }
+                          },
+                          "required": [         
+                            "Slope",
+                            "SoilTest"
+                          ]
+                        }
+                      ]
+                    },
+                    "PastureIntake": {
+                      "description": "Pasture consumed by the enterprises kg DM/ha. If not provided is defaulted to 550.",
+                      "type": "number"
+                    },
+                    "StockTypes": {
+                      "type":"array",
+                      "items": [
+                        {
+                      "type": "object",
+                      "properties": {
+                        "StockClass": {
+                          "description": "Dairy = 1, Sheep = 2, Beef = 3, Deer = 4",
+                          "type": "integer"
+                        },
+                        "EffectiveStockingRate": {
+                          "description": "Stocking rate in RSU/ha.",
+                          "type": "number"
+                        },
+                        "BlockGrossMarginPerRsu": {
+                          "description": "Gross margin per RSU.",
+                          "type": "number"
+                        },                      
+                        "MilkPerHa": {
+                          "description": "Milk solids kg/ha",
+                          "type": "number"
+                        },
+                        "CapitalValueSU": {
+                          "description": "Captial value per RSU",
+                          "type": "number"
+                        },
+                        "LiveWgtKgPerHa": {
+                          "description": "Live weight sold in kg/ha. Used for determining animal product loss",
+                          "type": "number"
+                        }
+                      },
+                      "required": [
+                        "StockClass",
+                        "EffectiveStockingRate",
+                        "BlockGrossMarginPerRsu",
+                        "PastureIntake",
+                        "MilkPerHa"                       
+                      ]
+                    }]},
+                    "Fertiliser": {
+                      "type": "object",
+                      "properties": {
+                        "Lime": {
+                          "type": "object",
+                          "properties": {
+                            "LimeNeutralisingValue": {
+                              "description": "<LimeNeutralisingValue>95</LimeNeutralisingValue>",
+                              "type": "null"
+                            },
+                            "LimePerpH": {
+                              "description": "<LimePerPh>20</LimePerPh>",
+                              "type": "number"
+                            },
+                            "AcidificationRate": {
+                              "description": "Inorganic Soil Pool H from Overseer block report.",
+                              "type": "number"
+                            },
+                            "LimeQuality": {
+                              "description": "<LimeQuality>0</LimeQuality> Same as neutralising value?",
+                              "type": "number"
+                            }
+                          },
+                          "required": [
+                            "LimeNeutralisingValue",
+                            "LimePerpH",
+                            "AcidificationRate",                           
+                            "LimeQuality"                            
+                          ]
+                        },
+                        "Sulphur": {
+                          "type": "object",
+                          "properties": {
+                            "Selemrelease": {
+                              "description": "Elemental sulphur release rate based on fert product and region",
+                              "type": "number"
+                            },
+                            "History": {
+                              "type": "object",
+                              "properties": {
+                                "Elemental": {
+                                  "description": "Amount of Elemental S applied in the two previous years. 1 year ago, 2 years ago",
+                                  "type": "array",
+                                  "items": [
+                                    {
+                                      "type": "integer"
+                                    },
+                                    {
+                                      "type": "integer"
+                                    }
+                                  ]
+                                },
+                                "Sulphate": {
+                                  "description": "Amount of Sulphate S applied in the two previous years. 1 year ago, 2 years ago",
+                                  "type": "array",
+                                  "items": [
+                                    {
+                                      "type": "integer"
+                                    },
+                                    {
+                                      "type": "integer"
+                                    }
+                                  ]
+                                },
+                                "MaintElemental": {
+                                    "description": "WHERE WOULD THIS COME FROM CHECK OVS 3",
+                                  "type": "array",
+                                  "items": [
+                                    {
+                                      "type": "integer"
+                                    },
+                                    {
+                                      "type": "integer"
+                                    }
+                                  ]
+                                },
+                                "MaintSulphate": {
+                                    "description": "",
+                                  "type": "array",
+                                  "items": [
+                                    {
+                                      "type": "integer"
+                                    },
+                                    {
+                                      "type": "integer"
+                                    }
+                                  ]
+                                }
+                              }
+                              }
+                          },
+                          "required": [
+                            "Selemrelease"                           
+                          ]
+                        },
+                        "Rpr": {                            
+                          "type": "object",
+                          "properties": {      
+                            "RprName": {
+                              "description": "WORK IN PROGRESS",
+                              "type": "string"    
+                            }             ,
+                            "InitialRpr": {
+                              "description": "WORK IN PROGRESS",
+                              "type": "number"
+                            },
+                            "RprHistories": {
+                              "description": "WORK IN PROGRESS",
+                              "type": "array",
+                              "items": {}
+                            }
+                          },
+                          "required": [                        
+                            "InitialRpr",
+                            "RprHistories"
+                          ]
+                        },
+                        "Costs": {
+                          "description": "Fertiliser cost nutrient $/kg.",
+                          "type": "object",
+                          "properties": {
+                            "K": {
+                              "type": "number"
+                            },
+                            "P": {
+                              "type": "number"
+                            },
+                            "S": {
+                              "type": "number"
+                            },
+                            "Rpr": {
+                              "type": "number"
+                            },
+                            "Ca": {
+                              "description": "Lime Cost",
+                              "type": "number"
+                            },
+                            "Spreading": {
+                                "description": "The cost of transport and spreading /ha.",
+                              "type": "number"
+                            }
+                          }                         
+                        }
+                      }                     
+                    },
+                    "UserDefinedParams": {
+                      "type": "object",
+                      "properties": {
+                        "NutrientInputs": {
+                          "description": "Additional nutrient inputs, such as supplements imported. kg/ha",
+                          "type": "array",
+                          "items": [
+                            {
+                              "type": "object",
+                              "properties": {
+                                "Name": {
+                                  "type": "string"
+                                },
+                                "P": {
+                                  "type": "number"
+                                },
+                                "K": {
+                                  "type": "number"
+                                }
+                              }
+                            }
+                          ]
+                        },
+                        "NutrientOutputs": {
+                          "description": "Additional nutrient outputs, such as supplements made. kg/ha",
+                          "type": "array",
+                          "items": {}
+                        },
+                        "FertiliserInputs": {
+                          "description": "Additional nutrient outputs from applied fertiliser. kg/ha",
+                          "type": "array",
+                          "items": {}
+                        }
+                      }                     
+                    }
+                  },
+                  "required": [
+                    "Area",    
+                    "Rain",            
+                    "SoilInputs",
+                    "BlockStock"         
+                  ]
+                }
+              },
+              "required": [
+                "BlockEconomics"
+              ]
+            }
+          ]
+        },
+        "RprFertilisers": {
+            "description":" Still in progress - will contain somethin like: <CrF>15</CrF> <RprRho>2.7</RprRho> <DissolutionRates> <Rate>0.127</Rate> <Rate>0.24</Rate> </DissolutionRates>",
+          "type": "array",
+          "items": [
+            {
+            "Name": {
+            "description":"",
+            "type": "string"
+            },
+            "CrF": {
+              "description":"",
+              "type": "number"
+              },
+            "Rho": {
+              "description":"",
+              "type": "number"
+              },
+            "DissolutionRates": 
+            {
+              "description":"",
+              "type": "array"
+              },
+              "items": [
+              {
+                "description":"",
+                "type": "number"
+                },
+                {
+                  "description":"",
+                  "type": "number"
+                  }  
+            ]
+          }
+          ]
+        },
+        "OptimumParams": {
+            "description":"Extra inputs required for the Optimum or Constrained Scenarios.",
+            "type": "object",
+            "properties": {
+              "Constraint": {
+                "description":"$/year.",
+                "type": "integer"
+              },
+              "ElementalMin": {
+                "description":"Minimum amount of Elemental S kg/ha.",
+                "type": "integer"
+              },
+              "ElementalRatio": {
+                "description":"Ratio of Elemental S %.",
+                "type": "integer"
+              },
+              "MaxValues": {
+                "description":"Maximum values for each nutrient as per the scenario set up. One item for each nutrient. e.g k: 120.0, p: 120.0, s: 120.0, rpr: 120.0 kg/ha/year, ca:10 T/ha/year",
+                "type": "array",
+                "items": [
+                  {
+                    "type": "object",
+                    "properties": {
+                      "Nutrient": {
+                        "type": "string"
+                      },
+                      "Value": {
+                        "type": "number"
+                      }
+                    },
+                    "required": [
+                      "Nutrient",
+                      "Value"
+                    ]
+                  }       
+                ]
+              },     
+              "PScenario": {
+                "description": "e.g. SolubleP, SolubleRpr, Rpr.",
+                "type": "string"
+              }
+            },
+            "required": [
+              "Constraint",
+              "ElementalMin",
+              "ElementalRatio",
+              "MaxValues",           
+              "PScenario"
+            ]
+          },
+        "ConstantAmountParams": {
+            "description": "Fertiliser settings for each block when using the Constant Scenario. Must be entered in the same order of the blocks.",
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "Fertiliser": {
+                    "description": "NOT REQUIRED - REMOVE?",
+                  "type": "string"
+                },
+                "Rate": {
+                    "description": "Application rate in kg/ha",
+                  "type": "number"
+                },
+                "NutrientValues": {
+                    "description": "Nutrient content of the fertiliser. One item for each nutrient: P, K, S, ElementalS, Rpr, Ca.",
+                    "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "Value": {
+                          "type": "number"
+                        },
+                        "Nutrient": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "Value",
+                        "Nutrient"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "Rate",
+                "NutrientValues"
+              ]
+            }    
+          ]
+        },
+        "Scenarios": {
+            "description": "This was used for passing in scenario details for reports - Do we still need?",
+          "type": "array",
+          "items": {}
+        }
+      },
+      "required": [
+        "Year",
+        "SRequired",
+        "KRequired",
+        "LimeRequired",
+        "RprAvailable",
+        "DiscountRate",
+        "Region",
+        "Blocks"   
+      ]
+    }
+  },
+  "required": [
+    "FarmEconomics"
+  ]
+}
