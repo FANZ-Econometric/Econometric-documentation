@@ -31,7 +31,7 @@
 > | name      |  type     | value               | description                                                           |
 > |-----------|-----------|-------------------------|-----------------------------------------------------------------------|
 > | Value      | string  |    | Nutrient value or Quantity (Indicated in the report)  (Double) |
-> | Year      | string  |    | Integer value 1..10 |
+> | Year      | string  |    | Year value 1..10, represents modelled future years where 1 is the current year |
 
 
 ### Report Object - YearValueReport
@@ -39,14 +39,14 @@
 > |-----------|-----------|-------------------------|-----------------------------------------------------------------------|
 > | $type      | string  |  "Econometric.Schema.ScenarioModal.YearValueReport, Econometric.Schema"  | Value indicates Report Type |
 > | ListOfYears      | array of 10 Year Object  |    | See the description of the Year Object |
-> | TypeOfReport | string  | e.g. "GrossReturns" | The Econometric report type |
+> | TypeOfReport | string  | e.g. "GrossReturns, "MilkProduction", "GrossMargin", "RelativeYield", "OlsenP", "Fertiliser", "StockingRate", "StockAdjustments", "Npv", "Irr" | The Econometric report type |
 
 ### Report Object - NutrientReport
 > | name      |  type     | value               | description                                                           |
 > |-----------|-----------|-------------------------|-----------------------------------------------------------------------|
 > | $type      | string  |  "Econometric.Schema.ScenarioModal.NutrientReport, Econometric.Schema"  | Value indicates Report Type |
 > | Nutrients      | array of for each nutrient Nutrient Object  |    | See the description of the Nutrient Object |
-> | TypeOfReport | string  | e.g. "Applied" | The Econometric report type |
+> | TypeOfReport | string  | e.g. "Applied", "Costs", "Soil", "Loss", "Inputs" | The Econometric report type |
 
 ### Report Object - WorkSpaceReport
 > | name      |  type     | value               | description                                                           |
@@ -62,14 +62,15 @@
 > | name      |  type     | value               | description                                                           |
 > |-----------|-----------|-------------------------|-----------------------------------------------------------------------|
 > | Nutrients      | array of for each nutrient Nutrient Object  |    | See the description of the Nutrient Object |
-> | TypeOfReport | string  | One of "RelativeYield", "OlsenP", "Soil" | The Econometric report type |
+> | TypeOfReport | string  | One of "RelativeYield", "OlsenP", "QuickTestK", "QuickCa" | The Econometric report type |
 
 ### OptimumParams Object
+#### The optimum params used if the scenario is an Optimum scenario, see modelrequest section
 > | name      |  type     | value               | description                                                           |
 > |-----------|-----------|-------------------------|-----------------------------------------------------------------------|
-> | Constraint      | string  |  dollar constraint numeric  |  |
-> | ElementalMin      | string  | numeric value   | Minimum value of Elemental S |
-> | ElementalRatio      | string  | numeric value   | Ratio of Elemental S to Sulphate S |
+> | Constraint      | string  |  dollar constraint numeric  | Only used for Constrained optimum  |
+> | ElementalMin      | string  | numeric value   | Minimum value of Elemental S, optional only if S required |
+> | ElementalRatio      | string  | numeric value   | Ratio of Elemental S to Sulphate S, optional only if S required |
 > | MaxValues | string  | array of Max Value Object | See the description of the Max Value Object |
 > | PScenario      | string  | None, Rpr, SolubleRpr, SolubleP   | Source of fertiliser P |
 
@@ -80,6 +81,7 @@
 > | Nutrient      | string  | P   | Nutrient identifier one of P, K, S, Rpr, Ca |
 
 ### ConstantAmount Object
+#### The constant params used if the scenario is an Constant scenario, see modelrequest section
 > | name      |  type     | value               | description                                                           |
 > |-----------|-----------|-------------------------|-----------------------------------------------------------------------|
 > | Fertiliser      | string  |  1  | Integer index of Fertiliser from Fertiliser database, may be null for a non constant scenario  |
