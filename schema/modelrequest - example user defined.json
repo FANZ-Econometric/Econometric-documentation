@@ -12,7 +12,6 @@
       {
         "Reference": "Pastoral 1",
         "BlockEconomics": {
-          "Desc": "Inputs the model needs",
           "Area": 50.0,
           "IsDairy": false,
           "Rain": 500,
@@ -20,7 +19,6 @@
           "Drainage": 0,
           "SoilInputs": [
             {
-              "Desc": "this will be the values passed in, can be an array",
               "SoilGroupDesc": "Sedimentary",
               "SoilOrderDesc": "Undefined",
               "Slope": "3",
@@ -50,7 +48,6 @@
             }
           ],
           "Fertiliser": {
-            "Desc": "TODO: do we need the farm level values here?",
             "Lime": {
               "LimeNeutralisingValue": null,
               "LimePerpH": 20.0,
