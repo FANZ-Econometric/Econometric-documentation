@@ -1,1 +1,1 @@
-Econometric model Documentation
+Econometric Model Documentation
