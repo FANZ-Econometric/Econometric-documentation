@@ -10,13 +10,12 @@
     <meta name="theme-color" content="#157878">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-    {% include head-custom.html %}
+    
   </head>
-  <body>
-    <a id="skip-to-content" href="#content">Skip to the content.</a>
+  <body> 
 
     <header class="page-header" role="banner">
-      <h1 class="project-name">Econometric Model Documentation</h1>      
+      <h1>Econometric Model Documentation</h1>      
        </header>
 
     <main id="content" class="main-content" role="main">
