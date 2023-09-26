@@ -3,6 +3,6 @@
 <p>The Econometric model is used to show the impact of different fertiliser nutrient application rates, it does not make recommendations on the selection of fertiliser products. The model is specific to only pasture-based systems, and covers Phosphorous by default. Optional considerations include Potassium, Sulphur, RPR and Lime. </p>
 </div>
 
- <div class="center">
+ <div class="center" style="width: 70%;">
       <img src="images/diagram.PNG" alt="API diagram">      
   </div>
