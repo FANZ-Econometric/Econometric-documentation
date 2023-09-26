@@ -25,6 +25,8 @@ h6 {
 .nav {
     display: flex;
     flex-wrap: wrap;
+    margin: auto;    
+    width: 50%;
 }
 
 .nav > *{
