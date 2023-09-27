@@ -1,4 +1,4 @@
- <div class="col-4">
+ <div class="col-2">
       <ul class="sub-menu">
         <li class="menu-item"><a href="https://">Basic Settings</a></li>
         <li class="menu-item"><a href="https://">Block Details</a></li>
