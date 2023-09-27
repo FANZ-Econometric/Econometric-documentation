@@ -21,6 +21,11 @@ h6 {
     letter-spacing: -0.5px;
 }
 
+div {
+    display: block;
+    max-width: 1200px;
+}
+
 /*custom CSS*/
 .nav {
     display: flex;
