@@ -207,8 +207,7 @@ ul.sub-menu {
     overflow: hidden;
 }
 
-li.menu-item {
-    float: left;
+li.menu-item {   
     padding: 0.25rem;
 }
 
