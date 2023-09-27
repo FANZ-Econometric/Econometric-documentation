@@ -10,5 +10,5 @@
  <div class="col-6">
        <p>Basic settings (Farm settings)</p>
        <p> A way to set basic file details and chose which nutrient to consider in the analysis.</p>
-       <img class="UI-pages" src="images/Basic settings.png" alt="Basic settings">
+       <img src="images/Basic settings.png" alt="Basic settings">
  </div>
