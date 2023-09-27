@@ -5,6 +5,6 @@
 <div>
   <p>Originally the model was provided with a desktop UI provided as an exe file. It has now been moved into the cloud where it is accessed via an API. A tool is required to collate the farm inputs into a JSON file which is then passed to the API with the requested scenario.</p>
 </div>
- <div class="center" style="width: 70%;">
+ <div class="diagram" style="width: 70%;">
       <img src="images/diagram.PNG" alt="API diagram">      
   </div>
