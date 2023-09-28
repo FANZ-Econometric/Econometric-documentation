@@ -9,6 +9,7 @@
     </ul>
 </div>
 <div class="col-8">  
+    <h3>Enterpise Data</h3>
 <p>Enterprises supported by the model are:</p>
     <ul class="bullet">
         <li>Dairy</li>
