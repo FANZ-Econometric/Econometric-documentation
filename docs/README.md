@@ -9,6 +9,6 @@
       <img src="images/diagram.PNG" alt="API diagram">      
   </div>
   <div>
-    <p>Documentation for getting access to the API - https://github.com/FANZ-Econometric/Econometric-documentation/tree/main/API%20Access</p>
-    <p>Schema documentation - https://github.com/FANZ-Econometric/Econometric-documentation/tree/main/schema </p>
+    <p><a href="https://github.com/FANZ-Econometric/Econometric-documentation/tree/main/API%20Access">Documentation for getting access to the API</a></p>
+    <p><a href="https://github.com/FANZ-Econometric/Econometric-documentation/tree/main/schema">Schema documentation</a></p>
   </div>
