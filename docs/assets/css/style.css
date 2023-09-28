@@ -13,7 +13,6 @@ html {
 /*Overview styling*/
 h1 {
     font-size: 2em;
-    margin: 0.67em 0
 }
 h2,
 h3,
@@ -44,6 +43,12 @@ div {
 .logo > *{
     padding: 10px;   
 }
+.fert-logo {
+    max-height: 70px;
+    position: relative;
+    float: left;
+    padding-right: 10rem ;
+}
 
 .diagram {
   display: block;
@@ -56,8 +61,7 @@ div {
     padding: 1rem 1rem !important;
     display: flex;
     align-items: center;
-    margin: 0 auto;
-    justify-content: space-around;
+    margin: 0 auto;  
     flex-wrap: wrap;
     
 }
