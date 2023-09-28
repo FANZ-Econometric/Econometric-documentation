@@ -13,6 +13,7 @@ html {
 /*Overview styling*/
 h1 {
     font-size: 2em;
+    color: #005486;
 }
 h2,
 h3,
@@ -202,7 +203,9 @@ th {
 .col-3{
    width: 33.33%;
 } */
-
+ul.bullet {
+    list-style-type: circle;
+}
 ul.sub-menu {
     list-style: none;
     margin: 0;
