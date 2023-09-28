@@ -24,4 +24,7 @@
           <p>If none are provided = 0 then a default of 10 is used.</p>
         <img src="images/blocks.png" alt="Blocks">
         <img src="images/blockadditional.png" alt="Blocks">
+    <p>Fertiliser and Lime spreading costs are calculated for each block.</p>
+    <img src="images/fertcalc.png" alt="fert calc">
+    <img src="images/limecalc.png" alt="lime calc">
     </div>
