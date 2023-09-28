@@ -406,6 +406,7 @@ a:hover {
 .menu-btn {
     display: inline-block;
     color: #186B89;
+    font-size: 18px;
     /*rgba(255,255,255,0.7);*/
 }
 
