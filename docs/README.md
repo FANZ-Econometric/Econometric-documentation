@@ -8,3 +8,7 @@
  <div class="diagram" style="width: 70%;">
       <img src="images/diagram.PNG" alt="API diagram">      
   </div>
+  <div>
+    <p>Documentation for getting access to the API - https://github.com/FANZ-Econometric/Econometric-documentation/tree/main/API%20Access</p>
+    <p>Schema documentation - https://github.com/FANZ-Econometric/Econometric-documentation/tree/main/schema </p>
+  </div>
