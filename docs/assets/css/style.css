@@ -710,7 +710,8 @@ a:hover {
 .site-footer {   
     border-top: solid 1px #eff0f1;           
     float: left;
-}
+    margin-top: 5rem;
+    }
 
 @media screen and (min-width: 64em) {
     .site-footer {
