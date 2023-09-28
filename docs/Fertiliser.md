@@ -1,5 +1,5 @@
-  <div class="col-2" style="padding: 2rem;">
-        <h2 style="margin-left:0.5rem">UI Suggestions</h2>
+  <div class="col-2">
+        <h2>UI Suggestions</h2>
       <ul class="sub-menu">
         <li class="menu-item"><a href="UIstart">Basic Settings</a></li>
         <li class="menu-item"><a href="Blocks">Block Details</a></li>
@@ -9,4 +9,8 @@
       </ul>
       </div>   
       <div class="col-8">
+         <h3>Fertiliser Details</h3>
+        <p>The engine requires the cost of fertiliser by kg of nutrient. You may choose to connect this to your own source of products and prices or just provide a entry fields.</p>
+        <p>If using lime or sulphur, then some additional fields are required.</p>
+        <img src="images/fertiliser.png" alt="fertiliser">
       </div>
