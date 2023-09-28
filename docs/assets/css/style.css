@@ -71,8 +71,7 @@ div {
     line-height: 1.5 !important;
     color: #2a2a2a !important;
     border-top: 2px solid #1C6C8A;
-    word-wrap: break-word;
-    position: relative; 
+    word-wrap: break-word;  
 }
 .btn {
     font-weight: 600;
