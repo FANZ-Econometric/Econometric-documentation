@@ -72,6 +72,8 @@ div {
     color: #2a2a2a !important;
     border-top: 2px solid #1C6C8A;
     word-wrap: break-word;  
+    position: relative;
+    min-height: 100vh;
 }
 .btn {
     font-weight: 600;
