@@ -13,4 +13,7 @@
         <p>The engine requires the cost of fertiliser by kg of nutrient. You may choose to connect this to your own source of products and prices or just provide a entry fields.</p>
         <p>If using lime or sulphur, then some additional fields are required.</p>
         <img src="images/fertiliser.png" alt="fertiliser">
+         <p>Lime requires the neutralising value and also an acidification rate (this is the equivalent of the Inorganic Soil Pool H from Overseer block report).</p>
+       <p>Sulphur requires an Elemental S release rate. Default values based on region and particle size are provided here.</p>
+       <img src="images/srelease.png" alt="DairyNZ">
       </div>
