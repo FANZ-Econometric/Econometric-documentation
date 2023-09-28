@@ -71,8 +71,9 @@ div {
     line-height: 1.5 !important;
     color: #2a2a2a !important;
     border-top: 2px solid #1C6C8A;
+    word-wrap: break-word;
+    position: relative; 
 }
-
 .btn {
     font-weight: 600;
 }
@@ -504,10 +505,6 @@ a:hover {
     }
 }
 
-.main-content {
-    word-wrap: break-word;
-}
-
 .main-content :first-child {
     margin-top: 0;
 }
@@ -650,21 +647,6 @@ a:hover {
     margin-top: 0
 }
 
-.main-content blockquote {
-    padding: 0 1rem;
-    margin-left: 0;
-    color: #819198;
-    border-left: 0.3rem solid #dce6f0
-}
-
-.main-content blockquote> :first-child {
-    margin-top: 0
-}
-
-.main-content blockquote> :last-child {
-    margin-bottom: 0
-}
-
 .main-content table {
     display: block;
     width: 100%;
@@ -708,12 +690,9 @@ a:hover {
     border: 0
 }
 
-.site-footer {
-    padding-top: 2rem;
-    margin-top: 2rem;
+.site-footer {   
     border-top: solid 1px #eff0f1;
-    position:fixed;    
-    bottom:0;
+    position:absolute;       
 }
 
 @media screen and (min-width: 64em) {
