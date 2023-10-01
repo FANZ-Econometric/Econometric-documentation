@@ -11,5 +11,5 @@
   <div>
     <p><a href="https://github.com/FANZ-Econometric/Econometric-documentation/tree/main/API%20Access">Documentation for getting access to the API</a></p>
     <p><a href="https://github.com/FANZ-Econometric/Econometric-documentation/tree/main/schema">Schema documentation</a></p>
-    <p>Some guidelines have been provided for capturing the farm inputs and can be found here:<a href="https://fanz-econometric.github.io/Econometric-documentation/UIstart"> UI Guide</p>
+    <p>Some guidelines have been provided for capturing the farm inputs and can be found here:<a href="https://fanz-econometric.github.io/Econometric-documentation/UIstart"> UI Guide</a></p>
   </div>
