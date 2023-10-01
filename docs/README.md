@@ -3,7 +3,7 @@
 <p>The Econometric model is used to show the impact of different fertiliser nutrient application rates, it does not make recommendations on the selection of fertiliser products. The model is specific to only pasture-based systems, and covers Phosphorous by default. Optional considerations include Potassium, Sulphur, RPR and Lime. </p>
 </div>
 <div>
-  <p>Originally the model was provided with a desktop UI provided as an exe file. It has now been moved into the cloud where it is accessed via an API. A tool is required to collate the farm inputs into a JSON file which is then passed to the API with the requested scenario.</p>
+  <p>Originally the model was provided with a desktop UI provided as an exe file. It has now been moved into the cloud where it is accessed via an API. An external tool is required to collate the farm inputs into a JSON file which is then passed to the API with the requested scenario.</p>
 </div>
  <div class="diagram" style="width: 70%;">
       <img src="images/diagram.PNG" alt="API diagram">      
@@ -11,4 +11,5 @@
   <div>
     <p><a href="https://github.com/FANZ-Econometric/Econometric-documentation/tree/main/API%20Access">Documentation for getting access to the API</a></p>
     <p><a href="https://github.com/FANZ-Econometric/Econometric-documentation/tree/main/schema">Schema documentation</a></p>
+    <p>Some guidelines have been provided for capturing the farm inputs and can be found here:<a href="https://fanz-econometric.github.io/Econometric-documentation/UIstart"> UI Guide</p>
   </div>
