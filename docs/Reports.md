@@ -1,5 +1,5 @@
 <div class="col-2">
-<h2>UI Suggestions</h2>
+<h2>UI Guides</h2>
     <ul class="sub-menu">
         <li class="menu-item"><a href="UIstart">Basic Settings</a></li>
         <li class="menu-item"><a href="Blocks">Block Details</a></li>
