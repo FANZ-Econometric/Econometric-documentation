@@ -13,6 +13,6 @@
        <p> Some basic settings are required.</p>
   <p>The start year, the model will provide results for the next 10 years.</p>
   <p>NPV discount rate is used in the reports.</p>
-  <p>Which nutrients are to be condisered in the analysis.</p>
+  <p>Which nutrients are to be considered in the analysis.</p>
        <img src="images/Basic settings.png" alt="Basic settings">
  </div>
