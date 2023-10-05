@@ -9,7 +9,7 @@
     </ul>
 </div>   
 <div class="col-8">
-    <h3>Fertiliser Details</h3>
+    <h3>Fertiliser and Lime Details</h3>
     <p>The engine requires the cost of fertiliser by kg of nutrient. You may choose to connect this to your own source of products and prices or just provide entry fields.</p>
     <p>If using lime or sulphur, then some additional fields are required.</p>
     <img src="images/fertiliser.png" alt="fertiliser">
