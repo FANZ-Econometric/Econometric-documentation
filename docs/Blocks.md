@@ -22,7 +22,7 @@
           <li>Total S</li>
           <li>QTSO4</li>
           </ul>
-          <p>If none are provided = 0 then a default of 10 is used.</p>
+          <p>If none are provided i.e. value = 0, then a default of 10 is used for Organic S.</p>
         <img src="images/blocks.png" alt="Blocks">
         <img src="images/blockadditional.png" alt="Blocks">
     <p>Fertiliser and Lime spreading costs are calculated for each block.</p>
