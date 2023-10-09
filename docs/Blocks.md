@@ -10,7 +10,7 @@
 </div>
 <div class="col-8">
         <h3>Block Details</h3>
-    <p>The inputs for the blocks may be sourced from an Overseer scenario.</p>
+    <p>The inputs for the blocks may be sourced from an Overseer analysis</p>
         <p>For each block the following information is required:</p>
         <p>Soil test data, rainfall/drainage data, pasture intake (kg/DM/ha), fert spreading costs (including lime) sulphur history and RPR history.</p>
         <p>The options for soil group, soil order, topography, drainage, and reserve K level can be found here: <a href="https://github.com/FANZ-Econometric/Econometric-documentation/blob/main/schema/Model_Request_details.md">Model Request Details</a></p>
