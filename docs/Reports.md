@@ -14,8 +14,8 @@
 <p>Input fields for each block are also needed for the user defined and constant scenarios.</p>
 <p>A range of reports are returned by the API along with the nutrient values. These could be displayed as graph or tables. You may also wish to provide a way to print reports.</p>
     <img src="images/outputs.png" alt="Outputs">
-    <p>The Optimum scenario settings require the Optimum value (kg/ha/year) for each nutrient being considered.</p>
+    <p>The Optimum scenario settings require the maximum fertiliser application value (kg/ha/year) for each nutrient being considered.</p>
     <img src="images/optscenariosettings.png" alt="Optimum">
-    <p>The Constrained scenario settings require the Optimum value (kg/ha/year) for each nutrient being considered, and the maximum total cost or constraint ($/year).</p>
+    <p>The Constrained scenario settings require the maximum fertiliser application value (kg/ha/year) for each nutrient being considered, and the maximum total cost or constraint ($/year).</p>
     <img src="images/constscenariosettings.png" alt="Constrained">
 </div>
